@@ -1,0 +1,69 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>注册-算法分析与设计精品课网站</title>
+    <link href="register.css" rel="stylesheet" type="text/css" />
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-2.1.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/Registerjavascript.js" type="text/javascript" charset="utf-8"></script>
+    <!--<script>
+        $.ajax({
+            type: 'get',
+            url: "../Handler/register.ashx?action=select",
+            success: function (Udata) {
+                var dom = $('#testTable');
+                console.log(Udata);
+                alert(Udata);
+                var Udata1=eval('('+Udata+')');
+                console.log(dom);
+                alert(Udata1.length);
+                for (var i = 0, l = Udata1.length; i < l; i++) {
+                    dom.append('<tr>');
+                    dom.append('<td>' + Udata1[i].UID + '</td>');
+                    dom.append('<td>' + Udata1[i].Uname + '</td>');
+                    dom.append('<td>' + Udata1[i].Upassword + '</td>');
+                    //dom.append('<td>' + 'a'+ '</td>');
+                    dom.append('</tr>');
+                }
+            }
+        })
+    </script>-->
+</head>
+<body>
+<div class="word">
+    <p style="font-size:30px">丰富的学习资源，及时的互动交流</p>
+    <p><span style="font-size:27px">培养</span><span style="font-size:40px"><strong>自主学习</strong></span><span style="font-size:27px">的习惯</span></p>
+</div>
+<div class="register">
+    <form class="form-horizontal" role="form">
+        <div class="text">
+            <input type="text" class="form-control" id="Uname" placeholder="请输入5-20位用户名，只能包含数字、字母、下划线" onblur="checkformname()">
+        </div>
+         <div class="text">
+             <input type="password" class="form-control" id="Upass" placeholder="请输入4-20位密码，只能包含数字、字母、下划线" onblur="checkpassword()">
+        </div>
+         <div class="text">
+            <input type="password" class="form-control" id="Uconfigpass" placeholder="请重复输入密码" onblur="recheckpassword()">
+        </div>
+         <div class="text">
+            <input type="text" class="form-control" id="Urole" placeholder="请输入角色，教师输入：1，学生输入：0" onblur="checkrole()">
+        </div>
+         <div class="text">
+            <input type="text" class="form-control" id="Uphone" placeholder="请输入正确的手机号，以13,15,17,18开头" onblur="checkphone()">
+        </div>
+         <div class="text">
+            <input type="text" class="form-control" id="Uemail" placeholder="请输入正确的电子邮箱" onblur="checkemail()">
+        </div>
+         <div class="text">
+            <input type="text" class="form-control" id="Udepartment" placeholder="请输入您所在的真实单位，具体到学校、学院、专业">
+        </div>
+        <button type="button" class="btn btn-success" id="UsubmitBtn">注册</button>
+        <div class="empty"></div>
+    </form>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>相关链接</title>
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="classInfo.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.1.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/linkjavascript.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        $.ajax({
+            type: 'get',
+            url: "../Handler/match.ashx?action=select",
+            success: function (Udata) {
+                var tb = document.getElementById("match");
+                var Udata1 = eval('(' + Udata + ')');
+                for (var i = 0, l = Udata1.length; i < l; i++) {
+                    var row = tb.insertRow(tb.rows.length);
+                    var c1 = row.insertCell(0);
+                    c1.innerHTML = Udata1[i].Mtitle;
+                    var c2 = row.insertCell(1);
+                    c2.innerHTML = Udata1[i].Mtime;
+                    var c3 = row.insertCell(2);
+                    c3.innerHTML = Udata1[i].Mregister;
+                    var c4 = row.insertCell(3);
+                    c4.innerHTML = "<a href='" + Udata1[i].Murl + "' class='link'>赛事链接</a>";
+                }
+            }
+        })
+        $.ajax({
+            type: 'get',
+            url: "../Handler/link.ashx?action=select",
+            success: function (Udata) {
+                var tb = document.getElementById("link");
+                var Udata1 = eval('(' + Udata + ')');
+                for (var i = 0, l = Udata1.length; i < l; i++) {
+                    var row = tb.insertRow(tb.rows.length);
+                    var c1 = row.insertCell(0);
+                    c1.innerHTML = Udata1[i].Ltitle;
+                    var c2 = row.insertCell(1);
+                    c2.innerHTML = Udata1[i].Ldescript;
+                    var c3 = row.insertCell(2);
+                    c3.innerHTML = "<a href='" + Udata1[i].Lurl + "' class='link'>网站链接</a>";
+                }
+            }
+        })
+    </script>
+</head>
+
+<body data-spy="scroll" data-target="#linkScrollspy">
+<div class="top">
+    <div class="navbar-header">
+        <a class="navbar-brand disabled" style="font-size:20px;color:black">算法分析与设计</a>
+    </div>
+    <div class="navbar-collapse collapse" role="navigation">
+       <ul class="nav navbar-nav nav-pills">
+           <li class="dropdown">
+               <a href="classInfo.html" class="dropdown-toggle" data-toggle="dropdown" style="font-size:17px;color:black">
+                   课程信息
+                   <b class="caret"></b>
+               </a>
+               <ul class="dropdown-menu">
+                   <li><a href="classInfo.html#classInfo-1">课程简介</a></li>
+                   <li class="divider"></li>
+                   <li><a href="classInfo.html#classInfo-2">特色创新</a></li>
+                   <li class="divider"></li>
+                   <li><a href="classInfo.html#classInfo-3">课程大纲</a></li>
+                   <li class="divider"></li>
+                   <li><a href="classInfo.html#classInfo-4">教学日历</a></li>
+                   <li class="divider"></li>
+                   <li><a href="classInfo.html#classInfo-5">课程考评</a></li>
+               </ul>
+           </li>
+           <li class="dropdown">
+               <a href="teaching.html" class="dropdown-toggle" data-toggle="dropdown" style="font-size:17px;color:black">
+                   教学资源
+                   <b class="caret"></b>
+               </a>
+               <ul class="dropdown-menu">
+                   <li><a href="teaching.html#teaching-1">课程负责人</a></li>
+                   <li class="divider"></li>
+                   <li><a href="teaching.html#teaching-2">教师团队</a></li>
+                   <li class="divider"></li>
+                   <li><a href="teaching.html#teaching-3">教学课件</a></li>
+                   <li class="divider"></li>
+                   <li><a href="teaching.html#teaching-4">电子教材</a></li>
+               </ul>
+           </li>
+           <li class="dropdown">
+               <a href="experiment.html" class="dropdown-toggle" data-toggle="dropdown" style="font-size:17px;color:black">
+                   上机实验
+                   <b class="caret"></b>
+               </a>
+               <ul class="dropdown-menu">
+                   <li><a href="experiment.html#experiment-1">实验信息</a></li>
+                   <li class="divider"></li>
+                   <li><a href="experiment.html#experiment-2">实验指导书</a></li>
+                   <li class="divider"></li>
+                   <li><a href="experiment.html#experiment-3">实验报告</a></li>
+               </ul>
+           </li>
+           <li class="dropdown">
+               <a href="communicate.html" class="dropdown-toggle" data-toggle="dropdown" style="font-size:17px;color:black">
+                   师生互动
+                   <b class="caret"></b>
+               </a>
+               <ul class="dropdown-menu">
+                   <li><a href="communicate.html#comm-1">作业习题</a></li>
+                   <li class="divider"></li>
+                   <li><a href="communicate.html#comm-2">学生作品</a></li>
+                   <li class="divider"></li>
+                   <li><a href="communicate.html#comm-3">课程讨论</a></li>
+               </ul>
+           </li>
+           <li class="dropdown">
+               <a href="link.html" class="dropdown-toggle" data-toggle="dropdown" style="font-size:17px;color:black">
+                   相关链接
+                   <b class="caret"></b>
+               </a>
+               <ul class="dropdown-menu">
+                   <li><a href="#link-1">比赛信息</a></li>
+                   <li class="divider"></li>
+                   <li><a href="#link-2">网站链接</a></li>
+               </ul>
+           </li>
+            <li class="dropdown">
+               <a href="homepage.html" style="font-size:17px;color:black"><span class="glyphicon glyphicon-home">返回首页</span></a>
+           </li>
+       </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-2" id="commScrollspy">
+            <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+                <li class="active"><a href="#link-1">比赛信息</a></li>
+                <li><a href="#link-2">网站链接</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-10">
+            <h2 id="link-1">比赛信息</h2>
+            <table id="match" class="table table-hover">
+                <thead>
+                    <tr>
+                        <td>比赛主题</td>
+                        <td>比赛时间</td>
+                        <td>报名时间</td>
+                        <td>链接地址</td>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <hr>
+            <h2 id="link-2">网站链接</h2>
+            <table id="link" class="table table-hover">
+                <thead>
+                    <tr>
+                        <td>网站主题</td>
+                        <td>网站简介</td>
+                        <td>链接地址</td>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <hr>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

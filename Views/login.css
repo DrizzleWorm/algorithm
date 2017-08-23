@@ -1,0 +1,40 @@
+body{
+    width:100%;
+    height:100%;
+    background:url('image/login_1.jpg') no-repeat;
+}
+.word{
+    margin:250px 50px 250px 200px;
+    float:left;
+    text-align:center;
+}
+.loginbox{
+    width:350px;
+    margin:180px 200px 180px 50px;
+    border:1px solid #C0C0C0;
+    border-radius:5px;
+    float:right;
+}
+.text{
+    margin:20px;
+}
+.checkbox{
+    margin-left:25px;
+    padding-bottom:20px;
+    font-size:14px;
+}
+.btn-success{
+    width:158px;
+    margin-left:63px;
+    margin-right:20px;   
+}
+.loginlink{
+    margin-bottom:20px;
+    margin-left:20px;
+}
+.loginlink .to_register{
+    padding-right:17px;
+}
+.loginlink .forgetpwd{
+    padding-left:17px;
+}

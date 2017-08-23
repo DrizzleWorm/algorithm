@@ -1,0 +1,29 @@
+.navbar-brand{
+    margin:0px 0px 0px 100px;
+}
+.navbar-right{
+    margin:0px 100px 0px 0px;
+}
+.page{
+    width:1300px;
+    margin:0px auto;
+    height:320px;
+    background:url('image/grass_3.jpg') center no-repeat;
+}
+.page .title{
+    text-align:center;
+    padding-top:100px;
+    color:white;
+}
+.main{
+    margin-left:43px;
+    margin-right:43px;
+    font-size:17px;
+    text-align:center;
+}
+a{
+    color:#41814A;
+}
+.table>tbody>tr>td{
+    padding:16px;
+}

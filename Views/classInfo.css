@@ -1,0 +1,203 @@
+.navbar-brand{
+    margin:0px 0px 0px 100px;
+}
+.top{
+    width:1140px;
+    height:100px;
+    margin:0px auto;
+    background:url('image/grass_3.jpg') center no-repeat;
+    border-radius: 4px;
+}
+.navbar-brand{
+    margin-top:23px;
+    margin-left:100px;
+}
+.dropdown{
+    margin-top:25px;
+}
+.dropdown-menu{
+    min-width:100%;
+    box-shadow:2px 4px 6px #C0C0C0;
+}
+ul.nav-tabs{
+    width: 140px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    background:url('image/grass_3.jpg') left;
+}
+ul.nav-tabs li{
+    margin: 0;
+    border-top: 1px solid #ddd;
+}
+a{
+    color:white;
+}
+ul.nav-tabs li:first-child{
+    border-top: none;
+}
+ul.nav-tabs li a{
+    margin: 0;
+    padding: 8px 16px;
+    border-radius: 0;
+}
+ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+    color: #fff;
+    background: #096;
+    border: 1px solid #096;
+}
+ul.nav-tabs li:first-child a{
+    border-radius: 4px 4px 0 0;
+}
+ul.nav-tabs li:last-child a{
+    border-radius: 0 0 4px 4px;
+}
+ul.nav-tabs.affix{
+    top: 30px; /* Set the top position of pinned element */
+}
+hr{
+    background-color:#6c6;
+    height:1px;
+    border:none;
+}
+iframe{
+     width:950px;
+     height:930px;
+}
+.panel{
+    margin-bottom:0px;
+    padding-left:0px;
+    background:url('image/grass_3.jpg') left;
+    border: 1px solid transparent;
+}
+.panel-heading{
+    margin:0px;
+    padding: 8px 0px;
+    border-bottom:0px;
+    color: #fff;
+    background: #096;
+}
+.panel-heading a{
+    border-radius: 0;
+    text-decoration:none;
+}
+.panel-default>.panel-heading{
+    background:url('image/grass_3.jpg') left;
+}
+.panel-body{
+    padding:0px;
+    margin-left:-40px;
+}
+ul.menu li .hidemenu{
+    padding:8px 0px;
+}
+ul.menu li .hidemenu a{
+    text-decoration:none;
+}
+.download,.deletebtn{
+    height:25px;
+    width:50px;
+    margin-left:20px;
+    padding:1px 7px;
+    font-size:15px;
+}
+/*.deletebtn{
+    height:25px;
+    width:50px;
+    margin-left:30px;
+    padding:1px 7px;
+    font-size:15px;
+}*/
+.table{
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+.table>tbody>tr>td{
+    padding:10px;
+    text-align:center;
+    font-size:16px;
+    vertical-align:middle;
+}
+.table>thead>tr>td{
+    padding:10px;
+    text-align:center;
+    font-size:17px;
+    vertical-align:middle;
+}
+.teacher{
+    width:1000px;
+    height:300px;
+    padding:20px;
+}
+.teachImg{
+    margin:30px 50px;
+    border:3px solid #8dddc2;
+}
+p{
+    font-size:16px;
+}
+.books>tbody>tr>td,.experiment>tbody>tr>td{
+    padding:10px;
+    text-align:center;
+    font-size:14px;
+    vertical-align:middle;
+}
+.books>thead>tr>td,.experiment>thead>tr>td{
+    padding:10px;
+    text-align:center;
+    font-size:16px;
+    vertical-align:middle;
+}
+.link{
+    color:#000;
+}
+#mou_head{
+    width: 400px; 
+    height: 240px;
+    z-index: 1001;
+    position: absolute;
+    top:-200px;
+    left:-480px;
+    border-radius:4px;
+    background:#fff;
+}
+.uploadtitle{
+    background:url('image/grass_3.jpg') center no-repeat;
+    padding-top:8px;
+    padding-bottom:8px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    font-size:20px;
+    color:black;
+    font-family:'Microsoft YaHei';
+    text-align:center;
+}
+.uploaditem{
+     margin:10px 20px;
+     font-size:17px;
+     font-family:'Microsoft YaHei';
+}
+#inputfile{
+    height:32px;
+    width:360px;
+    border-radius:4px;
+    border:0;
+    
+    display:block;
+}
+.uploadbtn{
+    margin-top:15px;
+    margin-left:200px;
+}
+.uploadfoot{
+    background:url('image/grass_3.jpg') center no-repeat;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top:30px; 
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+}
+/*input{ vertical-align:middle; margin:0; padding:0}
+.txt{ height:22px; border:1px solid #cdcdcd; width:180px;}
+.file{ position:absolute; top:0; right:80px; height:24px; filter:alpha(opacity:0);opacity: 0;width:260px }*/

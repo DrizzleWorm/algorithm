@@ -1,0 +1,1609 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="算法设计与分析A.files/filelist.xml">
+<link rel=Edit-Time-Data href="算法设计与分析A.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<link rel=themeData href="算法设计与分析A.files/themedata.thmx">
+<link rel=colorSchemeMapping href="算法设计与分析A.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073750139 0 0 415 0;}
+@font-face
+	{font-family:楷体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"\@楷体";
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 1 Char";
+	margin-top:17.0pt;
+	margin-right:0cm;
+	margin-bottom:16.5pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:240%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 2 Char";
+	margin-top:13.0pt;
+	margin-right:0cm;
+	margin-bottom:13.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:171%;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	mso-fareast-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-priority:39;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-priority:39;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:21.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;}
+span.1Char
+	{mso-style-name:"标题 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 1";
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+span.2Char
+	{mso-style-name:"标题 2 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 2";
+	font-family:"Calibri Light",sans-serif;
+	mso-ascii-font-family:"Calibri Light";
+	mso-hansi-font-family:"Calibri Light";
+	font-weight:bold;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;}
+p.a, li.a, div.a
+	{mso-style-name:教学大纲本文;
+	mso-style-unhide:no;
+	margin-top:7.8pt;
+	margin-right:0cm;
+	margin-bottom:7.8pt;
+	margin-left:21.25pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("算法设计与分析A.files/header.htm") fs;
+	mso-footnote-continuation-separator:url("算法设计与分析A.files/header.htm") fcs;
+	mso-endnote-separator:url("算法设计与分析A.files/header.htm") es;
+	mso-endnote-continuation-separator:url("算法设计与分析A.files/header.htm") ecs;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:36.0pt 36.0pt 36.0pt 36.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2049"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt;text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td valign=top style='padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:36.0pt;font-family:楷体'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:36.0pt;font-family:楷体'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:36.0pt;font-family:楷体'>算法设计与分析<span lang=EN-US>A</span></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:36.0pt;font-family:楷体'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:36.0pt;font-family:楷体'>实验指导书</span></p>
+  <span lang=EN-US style='font-size:36.0pt;font-family:楷体;mso-bidi-font-family:
+  宋体;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA'><br
+  clear=all style='page-break-before:always'>
+  </span>
+  <p class=MsoNormal><span lang=EN-US style='font-size:36.0pt;font-family:楷体'>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:24.0pt;font-family:宋体'>前 言</span></p>
+  <p class=MsoNormal style='text-indent:21.25pt'><span lang=EN-US>&nbsp;</span></p>
+  <p class=a style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+  margin-left:.2pt;margin-bottom:.0001pt;text-indent:24.25pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>《算法设计与分析<span
+  lang=EN-US>A</span>》是一门面向设计，处于计算机科学与技术学科核心地位的教育课程。通过对计算机算法系统的学习，使学生理解和掌握计算机算法的通用设计方法，培养对算法的计算复杂性正确分析的能力，为独立设计算法和对算法进行复杂性分析奠定基础。</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%;text-autospace:
+  none'><span style='font-size:12.0pt;line-height:150%;font-family:宋体'>本书是本科课程《算法设计与分析<span
+  lang=EN-US>A</span>》的实验指示书，使用它作为学习该课程的上机指导。通过本课程的实验，使学生加深对课程内容的理解，培养学生严密的思维能力，运用所学知识结合具体问题设计适用的算法的能力；培养学生良好的设计风格，激励学生创造新算法和改进旧算法的愿望和热情。希望同学们能够充分利用实验条件，认真完成实验，从实验中得到应有的锻炼和培养。</span></p>
+  <p class=MsoNormal align=left style='text-align:left;text-indent:24.0pt;
+  line-height:150%;text-autospace:none'><span style='font-size:12.0pt;
+  line-height:150%;font-family:宋体'>在使用本实验指导书及进行实验的过程中，希望同学们能够帮助我们不断地发现问题，并提出建议，使《算法设计与分析<span
+  lang=EN-US>A</span>》课程成为对大家有益的课程。</span></p>
+  <p class=MsoNormal style='text-indent:21.25pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>书的内容分为两大部分：第一部分介绍实验的基本要求；第二部分是具体的实验安排。书中共安排</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>2</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>次实验，每次</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>4</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>学时。具体安排是：</span></p>
+  <div align=center>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+   style='border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;page-break-inside:avoid;
+    height:12.0pt'>
+    <td width=55 style='width:41.05pt;border:solid windowtext 1.0pt;padding:
+    0cm 5.4pt 0cm 5.4pt;height:12.0pt'>
+    <p class=MsoNormal align=center style='text-align:center;line-height:150%'><b><span
+    style='font-size:12.0pt;line-height:150%;font-family:宋体'>实验序号</span></b></p>
+    </td>
+    <td width=240 style='width:180.0pt;border:solid windowtext 1.0pt;
+    border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.0pt'>
+    <p class=MsoNormal align=center style='text-align:center;text-indent:21.25pt;
+    line-height:150%'><b><span style='font-size:12.0pt;line-height:150%;
+    font-family:宋体'>实验内容</span></b></p>
+    </td>
+    <td width=56 valign=bottom style='width:42.3pt;border:solid windowtext 1.0pt;
+    border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:12.0pt'>
+    <p class=MsoNormal align=center style='text-align:center;line-height:150%'><b><span
+    style='font-size:12.0pt;line-height:150%;font-family:宋体'>学时</span></b></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:1;page-break-inside:avoid;height:12.0pt'>
+    <td width=55 style='width:41.05pt;border:solid windowtext 1.0pt;border-top:
+    none;padding:0cm 5.4pt 0cm 5.4pt;height:12.0pt'>
+    <p class=MsoNormal align=center style='text-align:center;text-indent:21.25pt;
+    line-height:150%'><span lang=EN-US style='font-size:12.0pt;line-height:
+    150%'>1</span></p>
+    </td>
+    <td width=240 style='width:180.0pt;border-top:none;border-left:none;
+    border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt;height:12.0pt'>
+    <p class=MsoNormal style='line-height:150%'><span style='font-size:12.0pt;
+    line-height:150%;font-family:宋体'>递归与分治法的设计与应用</span></p>
+    </td>
+    <td width=56 style='width:42.3pt;border-top:none;border-left:none;
+    border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt;height:12.0pt'>
+    <p class=MsoNormal align=center style='text-align:center;line-height:150%'><span
+    lang=EN-US style='font-size:12.0pt;line-height:150%'>4</span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes;page-break-inside:avoid;
+    height:12.0pt'>
+    <td width=55 style='width:41.05pt;border:solid windowtext 1.0pt;border-top:
+    none;padding:0cm 5.4pt 0cm 5.4pt;height:12.0pt'>
+    <p class=MsoNormal align=center style='text-align:center;text-indent:21.25pt;
+    line-height:150%'><span lang=EN-US style='font-size:12.0pt;line-height:
+    150%'>2</span></p>
+    </td>
+    <td width=240 style='width:180.0pt;border-top:none;border-left:none;
+    border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt;height:12.0pt'>
+    <p class=MsoNormal style='line-height:150%'><span style='font-size:12.0pt;
+    line-height:150%;font-family:宋体'>贪心法和动态规划的设计与应用</span></p>
+    </td>
+    <td width=56 style='width:42.3pt;border-top:none;border-left:none;
+    border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    padding:0cm 5.4pt 0cm 5.4pt;height:12.0pt'>
+    <p class=MsoNormal align=center style='text-align:center;line-height:150%'><span
+    lang=EN-US style='font-size:12.0pt;line-height:150%'>4</span></p>
+    </td>
+   </tr>
+  </table>
+  </div>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  <p class=MsoToc1><span style='font-family:宋体'>目</span> <span
+  style='font-family:宋体'>录</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+  <p class=MsoToc1 style='line-height:150%'><span style='font-size:15.0pt;
+  line-height:150%;font-family:宋体'>第一部分 实验基本要求<span lang=EN-US>................................
+  3</span></span></p>
+  <p class=MsoToc2 align=center style='text-align:center;line-height:150%'><span
+  style='font-size:15.0pt;line-height:150%;font-family:宋体'>一、实验目的<span
+  lang=EN-US>....................................... 3</span></span></p>
+  <p class=MsoToc2 align=center style='text-align:center;line-height:150%'><span
+  style='font-size:15.0pt;line-height:150%;font-family:宋体'>二、前导实验<span
+  lang=EN-US>....................................... 3</span></span></p>
+  <p class=MsoToc2 align=center style='text-align:center;line-height:150%'><span
+  style='font-size:15.0pt;line-height:150%;font-family:宋体'>三、实验组织<span
+  lang=EN-US>....................................... 3</span></span></p>
+  <p class=MsoToc2 align=center style='text-align:center;line-height:150%'><span
+  style='font-size:15.0pt;line-height:150%;font-family:宋体'>四、实验环境<span
+  lang=EN-US>....................................... 3</span></span></p>
+  <p class=MsoToc2 align=center style='text-align:center;line-height:150%'><span
+  style='font-size:15.0pt;line-height:150%;font-family:宋体'>五、实验考核<span
+  lang=EN-US>....................................... 4</span></span></p>
+  <p class=MsoToc1 style='line-height:150%'><span style='font-size:15.0pt;
+  line-height:150%;font-family:宋体'>第二部分 实验内容<span lang=EN-US>....................................
+  5</span></span></p>
+  <p class=MsoToc2 align=center style='text-align:center;line-height:150%'><span
+  style='font-size:15.0pt;line-height:150%;font-family:宋体'>实验一：递归和分治法应用及设计<span
+  lang=EN-US>..................... 5</span></span></p>
+  <p class=MsoToc2 align=center style='text-align:center;line-height:150%'><span
+  style='font-size:15.0pt;line-height:150%;font-family:宋体'>实验二：贪心法与动态规划算法应用及设计<span
+  lang=EN-US>............. 7</span></span></p>
+  <span lang=EN-US style='font-size:15.0pt;line-height:150%;font-family:宋体;
+  mso-bidi-font-family:宋体;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+  mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+  </span>
+  <p class=MsoNormal align=center style='text-align:center;line-height:150%'><span
+  lang=EN-US style='font-size:15.0pt;line-height:150%;font-family:宋体'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center;line-height:150%'><span
+  lang=EN-US style='font-size:15.0pt;line-height:150%;font-family:宋体'>&nbsp;<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center;line-height:150%'><span
+  lang=EN-US style='font-size:15.0pt;line-height:150%;font-family:宋体'>&nbsp;</span></p>
+  <h1 align=center style='margin:0cm;margin-bottom:.0001pt;text-align:center;
+  line-height:150%'><a name="_Toc449734304"><span style='font-size:18.0pt;
+  line-height:150%;font-family:宋体'>第一部分 实验基本要求</span></a></h1>
+  <h2 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:
+  0cm;line-height:150%'><a name="_Toc449734305"><span style='font-family:宋体'>一、实验目的</span></a></h2>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>本课程是计算机科学与技术专业、软件工程专业选修课程，是本专业学生应该具备的专业基础知识之一。本课程的实验教学以编制典型算法为主要内容，通过对实际问题的求解，加深理解并能灵活应用</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>计算机领域常见而有代表性的算法设计方法<span
+  style='color:black'>。</span></span></p>
+  <h2 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:
+  0cm;line-height:150%'><a name="_Toc449734306"><span style='font-family:宋体'>二、前导实验</span></a></h2>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>高级语言程序设计、数据结构等课程是本课程前导课程，这些课程的实验内容是本课程的前导实验内容。</span></p>
+  <h2 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:
+  0cm;line-height:150%'><a name="_Toc449734307"><span style='font-family:宋体'>三、实验组织</span></a></h2>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>根据算法实验题目不同，其工作量大小也有所区别。因此，根据教学大纲和条件有针对性的选题和合理的组织显得尤其重要。实验中要求学生严格按照算法设计步骤进行，即首先进行问题的描述，问题的分析和数学模型的建立，然后算法的详细设计，算法复杂性分析，特别应该强调的是文档的编制应该是贯穿于整个算法设计阶段的过程，而不是在算法设计完成之后才开始写，同时，实验内容应该具有逐步积累与传承要求，各位同学一定要注意保存每次实验结果。题目无论大小，均应突出课堂讲授的重点，把基本原理与实践结合起来。</span></p>
+  <p class=MsoNormal><b><span lang=EN-US style='font-size:12.0pt'>&nbsp;</span></b></p>
+  <h2 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:
+  0cm;line-height:150%'><a name="_Toc449734308"><span style='font-family:宋体'>四、实验环境</span></a></h2>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>本课程实验环境是显示性能良好的微机系统环境，需要安装</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;color:black'>C</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>或</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;color:black'>Visual C++</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>或</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;color:black'>JDK</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>等。</span></p>
+  <h2 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:
+  0cm;line-height:150%'><a name="_Toc449734309"><span style='font-family:宋体'>五、实验考核</span></a></h2>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>每次实验结束后，均应上交实验报告。</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>实验报告应包括如下内容：</span><span
+  style='font-size:12.0pt;line-height:150%;color:black'> </span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;color:black'>1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>、实验内容的描述（即问题描述）</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>简述题目要解决的问题是什么。</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;color:black'>2</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>、实验基本原理与设计</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>主要是算法设计；用类</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;color:black'>c</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>语言进行描述。</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;color:black'>3</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>、调试过程</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>包括调试方法的描述，测试数据，测试的结果以及发现的问题和相应的解决方法，设计和编码的讨论和分析。</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;color:black'>4</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>、实验结果及分析</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>包括结果的描述，结果的分析和讨论，算法的时间复杂度和空间复杂度分析，最后总结算法的功能。</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;color:black'>5</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>、经验和体会</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;color:black'>6</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>、附源程序清单和运行结果。</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;color:black'>源程序要加注释。如果题目规定了测试数据，则结果要包含这些测试数据和运行输出，当然还可以含有其它测试数据和运行输出（有时需要多组数据）。</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;color:black'>&nbsp;</span></p>
+  <span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:宋体;color:black;mso-ansi-language:EN-US;mso-fareast-language:
+  ZH-CN;mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+  </span>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td valign=top style='padding:0cm 5.4pt 0cm 5.4pt'>
+  <h1 align=center style='margin:0cm;margin-bottom:.0001pt;text-align:center;
+  line-height:150%'><a name="_Toc449734310"><span style='font-size:18.0pt;
+  line-height:150%;font-family:宋体'>第二部分 实验内容</span></a></h1>
+  <h2 style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:
+  0cm;line-height:150%'><a name="_Toc449734311"><span style='font-family:宋体'>实验一：递归和分治法应用及设计</span></a></h2>
+  <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
+  line-height:150%;font-family:宋体'>一、目的与要求</span></b></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>1</span><span style='font-size:
+  12.0pt;line-height:150%;font-family:宋体'>．目的</span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp; </span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>深刻理解递归与分治法的设计思想，认识其适用范围，并能灵活应用于解决实际问题。</span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>2</span><span style='font-size:
+  12.0pt;line-height:150%;font-family:宋体'>．要求</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>用</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>C/C++</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>语言编写程序，实验后，进行实验总结，描述设计过程步骤及各步骤含义。</span></p>
+  <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
+  line-height:150%;font-family:宋体'>二、示例</span></b></p>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>．</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>问题的描述</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>求一维点集</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>S</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>的最接近点对的算法。</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>2</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>．</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>问题的分析</span></p>
+  <p class=MsoNormal style='text-indent:18.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>假设我们用</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>x</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>轴上某个点</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>m</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>将</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>S</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>划分为两个集合</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>S1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>S2</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，使得</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;mso-no-proof:yes'><img
+  width=263 height=23 id="_x0000_i1036" src="算法设计与分析A.files/image001.png"></span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>。这样以来，对于所有</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;mso-no-proof:yes'><img
+  width=100 height=23 id="_x0000_i1035" src="算法设计与分析A.files/image002.png"></span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>有</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>p&lt;q.</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>。</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>递归地在</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>S1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>和</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>S2</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>上找出其最接近点对</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>{p1,p2}</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>和</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>{q1,q2},</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>并设</span></p>
+  <p class=MsoNormal align=center style='text-align:center;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>d=min{|p1-p2|,|q1-q2|}</span></p>
+  <p class=MsoNormal style='line-height:150%'><span style='font-size:12.0pt;
+  line-height:150%;font-family:宋体'>由此易知，</span><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>S</span><span style='font-size:
+  12.0pt;line-height:150%;font-family:宋体'>中的最接近点对或者是</span><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>{p1,p2}</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，或者是</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>{q1,q2}</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，或者是某个</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>{p3,q3},</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>其中，</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;mso-no-proof:yes'><img
+  width=131 height=24 id="_x0000_i1034" src="算法设计与分析A.files/image003.png"></span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>3</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>．</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>算法的详细设计</span></p>
+  <p class=MsoNormal style='text-indent:60.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>boolean Cpairl(S,d)</span></p>
+  <p class=MsoNormal style='text-indent:81.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>n=|S|</span></p>
+  <p class=MsoNormal style='text-indent:81.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>if (n&lt;2)</span></p>
+  <p class=MsoNormal style='text-indent:81.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp; then d=</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>∞</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>;</span></p>
+  <p class=MsoNormal style='text-indent:114.85pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>return false;</span></p>
+  <p class=MsoNormal style='text-indent:69.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>&nbsp; endif</span></p>
+  <p class=MsoNormal style='text-indent:81.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>m=S</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>中各点坐标的中位数；</span></p>
+  <p class=MsoNormal style='text-indent:81.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>构造</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>S1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>S2</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>；</span></p>
+  <p class=MsoNormal style='text-indent:81.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>//<span
+  style='position:relative;top:5pt'></span><span lang=EN-US></span></span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;mso-no-proof:yes'><img
+  width=263 height=23 id="_x0000_i1033" src="算法设计与分析A.files/image001.png"></span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'><o:p></o:p></span></p>
+  <p class=MsoNormal style='text-indent:81.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>Cpairl(S1,d1);</span></p>
+  <p class=MsoNormal style='text-indent:81.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>Cpairl(S2,d2);</span></p>
+  <p class=MsoNormal style='text-indent:81.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>p=max(S1);</span></p>
+  <p class=MsoNormal style='text-indent:81.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>q=min(S2);</span></p>
+  <p class=MsoNormal style='text-indent:81.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>d=min(d1,d2,q-p);</span></p>
+  <p class=MsoNormal style='text-indent:81.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>return true;</span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  endCpairl</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>4</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>．</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>算法时间复杂性分析</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>算法的时间复杂性：</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td valign=top style='padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <span style='position:relative;top:15pt'></span><span lang=EN-US></span></span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;mso-no-proof:yes'><img
+  width=200 height=48 id="_x0000_i1032" src="算法设计与分析A.files/image004.png"></span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td valign=top style='padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
+  line-height:150%;font-family:宋体'>三、实验题</span></b></p>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>．</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>利用分治法，写一个二分检索的递归算法，并利用任何一种语言，在计算机上实现，同时进行时间复杂性分析。</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>2</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>．</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>写一个布尔函数，由该函数获取</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>0,1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>为原始的数值</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>A[n]</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，并确定每个连续为</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>的序列的大小是否为偶数，若为偶数，则将该序列输出，请用递归与非递归两种方式实现。</span></p>
+  <span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif;
+  mso-fareast-font-family:宋体;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;
+  mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+  </span>
+  <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td valign=top style='padding:0cm 5.4pt 0cm 5.4pt'>
+  <h2 style='margin:0cm;margin-bottom:.0001pt;line-height:150%'><a
+  name="_Toc449734312"><span style='font-family:宋体'>实验二：贪心法与动态规划算法应用及设计</span></a></h2>
+  <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
+  line-height:150%;font-family:宋体'>一、目的与要求</span></b></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>1</span><span style='font-size:
+  12.0pt;line-height:150%;font-family:宋体'>．目的</span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp; </span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>深刻理解贪心法与动态规划的设计思想，认识其适用范围，并能灵活应用于解决实际问题。</span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>2</span><span style='font-size:
+  12.0pt;line-height:150%;font-family:宋体'>．要求</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>用</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>C/C++</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>语言编写程序，实验后，进行实验总结，描述设计过程步骤及各步骤含义。</span></p>
+  <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
+  line-height:150%;font-family:宋体'>二、示例</span></b></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>1</span><span style='font-size:
+  12.0pt;line-height:150%;font-family:宋体'>．问题的描述</span></p>
+  <p class=MsoNormal style='text-indent:27.35pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>0/1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>背包问题：给定</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>n</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>种物品和一个容量大小为</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>M</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>的背包，每种物品</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>i</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>的容量为</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>w<sub>i</sub></span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，其价值为</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>p<sub>i</sub></span><sub><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，</span></sub><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，问采用怎样的装包方法才会使装入背包物品的总价值最大。</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>2</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>．</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>问题的分析</span></p>
+  <p class=MsoNormal style='text-indent:27.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>在选择装入背包的物品时，对每种物品</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>i</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>只有两种选择，即装入背包或不装入背包。不能将物</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>i </span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>装入背包多次，也不能只装入部分的物品</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>i</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>。因此其形式化描述为：</span></p>
+  <p class=MsoNormal style='text-indent:27.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>给定</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>M</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>wi&gt;0,pi&gt;0,0</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>≤</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>i</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>≤</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>n</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，要求一个</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>n</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>元的</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>0-1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>向量（</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>x1,x2,x3,….xn</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>）</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>,xi<span
+  style='position:relative;top:2pt'></span><span lang=EN-US></span></span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;mso-no-proof:yes'><img
+  width=13 height=13 id="_x0000_i1031" src="算法设计与分析A.files/image005.png"></span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>{0,1},0</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>≤</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>i</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>≤</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>n,</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>使得</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;mso-no-proof:yes'><img
+  width=85 height=45 id="_x0000_i1030" src="算法设计与分析A.files/image006.png"></span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，而且</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;mso-no-proof:yes'><img
+  width=52 height=45 id="_x0000_i1029" src="算法设计与分析A.files/image007.png"></span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>达到最大。</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>显然，</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>0-1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>背包问题满足最优性原理，因此其递推关系式可分析如下：</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>设所给</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>0-1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>背包问题的子问题</span><span
+  lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:120.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%;mso-no-proof:
+  yes'><img width=83 height=45 id="_x0000_i1028"
+  src="算法设计与分析A.files/image008.png"></span><span lang=EN-US><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:120.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%;mso-no-proof:
+  yes'><img width=135 height=67 id="_x0000_i1027"
+  src="算法设计与分析A.files/image009.png"></span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US>&nbsp;</span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td valign=top style='padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-indent:27.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>的最优值是</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>m(i,j),</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>即</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>m(i,j)</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>是背包容量为</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>j</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>，可选择物品是</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>i,i+1,….n</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>时</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>0-1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>背包的最优值。因此可建立如下的递推关系式：</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td valign=top style='padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;mso-no-proof:yes'><img
+  width=12 height=23 id="_x0000_i1026" src="算法设计与分析A.files/image010.png"></span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;mso-no-proof:yes'><img
+  width=351 height=101 id="_x0000_i1025" src="算法设计与分析A.files/image011.png"></span></p>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9;mso-yfti-lastrow:yes'>
+  <td valign=top style='padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>3</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>．</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>算法的详细设计</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>procedure Knapsack(p, w,
+  M,n)</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>//</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>其中</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>M</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>存背包总的容量，</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>p[n]</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>存各物品的效益值，</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>w[n]</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>存各物品的容量，</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>m[i][j]</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>含义见上述分析；</span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>real p[n],;</span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>int
+  w[n],n,M;</span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>int
+  jMax=min(w[n]-1,M);</span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>real
+  m[n][jMax]</span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>for j</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>&szlig;</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>0 to jMax do </span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;
+  m[n][j]=0;</span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>repeat</span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>for j</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>&szlig;</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>w[n] to M do </span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  m[n][j]=p[n];</span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>repeat</span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>for i</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>&szlig;</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>n-1 to 1 step -1do </span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>&nbsp;
+  jMax=min(w[i]-1,M);</span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>&nbsp; for j</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>&szlig;</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>0 to jMax&nbsp; do </span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:48.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>m[i][j]=m[i+1][j];</span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  repeat</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  for j</span><span lang=EN-US style='font-size:12.0pt;line-height:150%;
+  font-family:Wingdings'>&szlig;</span><span lang=EN-US style='font-size:12.0pt;
+  line-height:150%'>w[i] to M&nbsp; do </span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:48.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>m[i][j]=max(m[i+1][j],m[i+1][j-w[i]]+p[i]);</span></p>
+  <p class=MsoNormal style='text-indent:54.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>repeat</span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  repeat</span></p>
+  <p class=MsoNormal style='text-indent:36.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>m[1][M]=m[2][M];</span></p>
+  <p class=MsoNormal style='text-indent:36.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>if M&gt;=w[1]</span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  then m[1][M]=max(m[1][M],m[2][M-w[1]]+p[1]);</span></p>
+  <p class=MsoNormal style='text-indent:36.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>endif</span></p>
+  <p class=MsoNormal style='text-indent:18.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>endKnapsack</span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>procedure Traceback(m,w,
+  M,n)</span></p>
+  <p class=MsoNormal style='margin-left:17.95pt;text-indent:24.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>real,m[n][n];</span></p>
+  <p class=MsoNormal style='text-indent:45.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>int w[n],n,M ,x[n];</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp; for i</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:Wingdings'>&szlig;</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>1 to n&nbsp; do </span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  if m[i][M]==m[i+1][M] </span></p>
+  <p class=MsoNormal style='text-indent:72.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>then&nbsp; x[i]=0;</span></p>
+  <p class=MsoNormal style='text-indent:72.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>else x[i]=1;M=M-w[i];</span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  endif</span></p>
+  <p class=MsoNormal style='text-indent:42.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>repeat</span></p>
+  <p class=MsoNormal style='text-indent:48.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>x[n]=m[n][M])?1:0;</span></p>
+  <p class=MsoNormal style='text-indent:24.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>end Trackback</span></p>
+  <p class=MsoNormal style='line-height:150%'><span style='font-size:12.0pt;
+  line-height:150%;font-family:宋体'>按上述</span><span lang=EN-US style='font-size:
+  12.0pt;line-height:150%'>Knapsack</span><span style='font-size:12.0pt;
+  line-height:150%;font-family:宋体'>计算后，</span><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>m[1][M]</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>给出所要求的</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>0-1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>背包问题的最优值，相应的最优解可以从算法</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>Trackback</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>计算得到。</span></p>
+  <p class=MsoNormal style='line-height:150%'><span lang=EN-US
+  style='font-size:12.0pt;line-height:150%'>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>4</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>．</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>算法时间复杂性分析</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>显然</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>Knapsackde</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>时间复杂性是</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>O(nM)</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>；算法</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>Traceback</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>的时间为</span><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>O(n)</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>。</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+  lang=EN-US style='font-size:12.0pt;line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+  <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
+  line-height:150%;font-family:宋体'>三、实验题</span></b></p>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>1</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>．</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>利用贪心法，设计更快的带有期限的作业排序算法，并利用任何一种语言，在计算机上实现，同时进行时间复杂性分析。</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+  150%'><span lang=EN-US style='font-size:12.0pt;line-height:150%'>2</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体;mso-ascii-font-family:
+  "Times New Roman";mso-hansi-font-family:"Times New Roman"'>．</span><span
+  style='font-size:12.0pt;line-height:150%;font-family:宋体'>利用动态规划思想，求货郎担问题，并利用任何一种语言，在计算机上实现，同时进行时间复杂性分析。</span></p>
+  <p class=MsoNormal style='margin-left:18.0pt'><span lang=EN-US
+  style='font-size:12.0pt'>&nbsp;</span></p>
+  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,394 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>教学资源</title>
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="jquery-ui.css" rel="stylesheet" />-->
+    <link href="classInfo.css" rel="stylesheet" type="text/css" />
+    <!--<link href="teaching.css" rel="stylesheet" type="text/css" />-->
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery-2.1.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/ajaxfileupload.js"></script>
+
+    <script>
+        function deletecourse(str) {
+            var cpath = str;
+            alert(cpath);
+            var data = {
+                Cpath:cpath,
+            };
+            $.ajax({
+                type: 'post',
+                url: "../Handler/delcourse.ashx?",
+                data: data,
+                success: function (data) {
+                    if (data == "1") {
+                        alert("删除成功！");
+                    }
+                    else {
+                        alert("删除失败！");
+                        return false;
+                    }
+                    window.location.reload();
+                }
+            })
+        }
+        $.ajax({
+            type: 'get',
+            url: "../Handler/classes.ashx?action=select",
+            success: function (Udata) {
+                var tb = document.getElementById("course");
+                console.log(Udata);
+                var Udata1 = eval('(' + Udata + ')');
+                for (var i = 0, l = Udata1.length; i < l; i++) {
+                    var row = tb.insertRow(tb.rows.length);
+                    var c1 = row.insertCell(0);
+                    c1.innerHTML = Udata1[i].Cname;
+                    var c2 = row.insertCell(1);
+                    c2.innerHTML = "<button type='button' id='btn_" + i + "' class='btn btn-success download' onclick='window.location.href=&quot;" + Udata1[i].Cpath + "&quot;'>下载</button>";
+                    var c3 = row.insertCell(2);
+                    //c3.innerHTML = "<button type='button' id='btn_del" + i + "' class='btn btn-warning deletebtn' onclick='window.location.href=&quot;" + Udata1[i].Cpath + "&quot;'>下载</button>";
+                    c3.innerHTML = "<button type='button' id='btn_del" + i + "' class='btn btn-warning deletebtn' onclick='deletecourse(&quot;" + Udata1[i].Cpath + "&quot;)'>删除</button>";
+                    //c3.innerHTML = "<button type='button' id='btn_del" + i + "' class='btn btn-warning deletebtn' onclick='deletecourse(&quot;" + Udata1[i].Cpath + "&quot;)'>删除</button>";
+                }
+            }
+        })
+    </script>
+</head>
+
+<body data-spy="scroll" data-target="#teachingScrollspy">
+<div class="top">
+    <div class="navbar-header">
+        <a class="navbar-brand disabled" style="font-size:20px;color:black">算法分析与设计</a>
+    </div>
+    <div class="navbar-collapse collapse" role="navigation">
+       <ul class="nav navbar-nav nav-pills">
+           <li class="dropdown">
+               <a href="classInfo.html" class="dropdown-toggle" data-toggle="dropdown" style="font-size:17px;color:black">
+                   课程信息
+                   <b class="caret"></b>
+               </a>
+               <ul class="dropdown-menu">
+                   <li><a href="classInfo.html#classInfo-1">课程简介</a></li>
+                   <li class="divider"></li>
+                   <li><a href="classInfo.html#classInfo-2">特色创新</a></li>
+                   <li class="divider"></li>
+                   <li><a href="classInfo.html#classInfo-3">课程大纲</a></li>
+                   <li class="divider"></li>
+                   <li><a href="classInfo.html#classInfo-4">教学日历</a></li>
+                   <li class="divider"></li>
+                   <li><a href="classInfo.html#classInfo-5">课程考评</a></li>
+               </ul>
+           </li>
+           <li class="dropdown">
+               <a href="teaching.html" class="dropdown-toggle" data-toggle="dropdown" style="font-size:17px;color:black">
+                   教学资源
+                   <b class="caret"></b>
+               </a>
+               <ul class="dropdown-menu">
+                   <li><a href="#teaching-1">课程负责人</a></li>
+                   <li class="divider"></li>
+                   <li><a href="#teaching-2">教师团队</a></li>
+                   <li class="divider"></li>
+                   <li><a href="#teaching-3">教学课件</a></li>
+                   <li class="divider"></li>
+                   <li><a href="#teaching-4">电子教材</a></li>
+               </ul>
+           </li>
+           <li class="dropdown">
+               <a href="experiment.html" class="dropdown-toggle" data-toggle="dropdown" style="font-size:17px;color:black">
+                   上机实验
+                   <b class="caret"></b>
+               </a>
+               <ul class="dropdown-menu">
+                   <li><a href="experiment.html#experiment-1">实验信息</a></li>
+                   <li class="divider"></li>
+                   <li><a href="experiment.html#experiment-2">实验指导书</a></li>
+                   <li class="divider"></li>
+                   <li><a href="experiment.html#experiment-3">实验报告</a></li>
+               </ul>
+           </li>
+           <li class="dropdown">
+               <a href="communicate.html" class="dropdown-toggle" data-toggle="dropdown" style="font-size:17px;color:black">
+                   师生互动
+                   <b class="caret"></b>
+               </a>
+               <ul class="dropdown-menu">
+                   <li><a href="communicate.html#comm-1">作业习题</a></li>
+                   <li class="divider"></li>
+                   <li><a href="communicate.html#comm-2">学生作品</a></li>
+                   <li class="divider"></li>
+                   <li><a href="communicate.html#comm-3">课程讨论</a></li>
+               </ul>
+           </li>
+           <li class="dropdown">
+               <a href="link.html" class="dropdown-toggle" data-toggle="dropdown" style="font-size:17px;color:black">
+                   相关链接
+                   <b class="caret"></b>
+               </a>
+               <ul class="dropdown-menu">
+                   <li><a href="link.html#link-1">比赛信息</a></li>
+                   <li class="divider"></li>
+                   <li><a href="link.html#link-2">网站链接</a></li>
+               </ul>
+           </li>
+           <li class="dropdown">
+               <a href="homepage.html" style="font-size:17px;color:black"><span class="glyphicon glyphicon-home">返回首页</span></a>
+           </li>
+       </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-2" id="teachingScrollspy">
+            <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+                <li class="active"><a href="#teaching-1">课程负责人</a></li>
+                <li><a href="#teaching-2">教师团队</a></li>
+                <li><a href="#teaching-3">教学课件</a></li>
+                <li><a href="#teaching-4">电子教材</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-10">
+            <h2 id="teaching-1">课程负责人</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高曙，武汉理工大学计算机科学与技术学院教授，博士生导师，2005年国家公派英国CARDIFF UNIVERSITY 访问学者。主要研究方向：计算机网络与分布式处理，智能计算与可视化技术。<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从事教学工作20余年。曾获得武汉理工大学第三届“我心目中最喜爱的老师”荣誉称号。为本科生主讲“算法设计与分析”等课程，为研究生主讲“算法理论与研究”等课程，为博士生主讲“算法及其复杂性”、“知识科学与计算科学”等课程，指导全日制硕士研究生50余名，博士生（含留学生）7名。指导多名本科和硕士毕业生获得优秀论文。<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科研上，主持或参加了多项国家自然科学基金项目、湖北省自然科学基金项目、教育部研究项目、国家科技支撑计划重大项目等，并主持了多项企业委托项目，在国内外学术刊物上发表了50余篇论文,其中多篇文章被SCI，EI索引。</p>
+            <hr>
+            <h2 id="teaching-2">教学团队</h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“算法设计与分析”课程由计算机科学与技术学院承担，面向计算机科学与技术专业、物联网专业、软件工程专业本科生授课，目前教学团队现有教师3人，并有约6名硕士研究生参与实验辅导工作。<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;教学团队是保证高质量课程建设的重要内容。教学团队教师队伍中，既有经验丰富的中年教育骨干，也有专业基础扎实的优秀年轻教师。教学团队的教师均有8年以上讲授本课程的经历。</p>
+            <div class="teacherInfo">
+                <hr>
+                <h3>&nbsp;&nbsp;&nbsp;&nbsp;高曙老师</h3>
+                <div class="teacher">
+                    <div class="col-xs-4">
+                        <img src="image/GaoShu.jpg" class="teachImg" />
+                    </div>
+                    <div class="col-xs-8">
+                        <p>姓名：高曙</p>
+                        <P>性别：女</P>
+                        <p>出生年月：1967年4月</p>
+                        <p>学位：博士</p>
+                        <p>职称：教授</p>
+                        <p>学科专业：计算机应用技术</p>
+                        <p>承担工作：课程负责人</p>
+                        <p>电话：15327196302</p>
+                        <p>邮箱：gshu418@163.com</p>
+                    </div>
+                </div>
+                <hr>
+                <h3>&nbsp;&nbsp;&nbsp;&nbsp;夏红霞老师</h3>
+                <div class="teacher">
+                    <div class="col-xs-4">
+                        <img src="image/XiaHongxia.jpg" class="teachImg"/>
+                    </div>
+                    <div class="col-xs-8">
+                        <p>姓名：夏红霞</p>
+                        <p>性别：女</p>
+                        <p>出生年月：1960年1月</p>
+                        <p>学位：学士</p>
+                        <p>职称：教授</p>
+                        <p>学科专业：计算机应用技术</p>
+                        <p>承担工作：教材主编</p>
+                        <p>电话：15971502511</p>
+                        <p>邮箱：xiahx@whut.edu.cn</p>
+                    </div>
+                </div>
+                <hr>
+                <h3>&nbsp;&nbsp;&nbsp;&nbsp;李晓红老师</h3>
+                <div class="teacher">
+                    <div class="col-xs-4">
+                        <img src="image/LiXiaohong.jpg" class="teachImg" />
+                    </div>
+                    <div class="col-xs-8">
+                        <p>姓名：李晓红</p>
+                        <p>性别：女</p>
+                        <p>出生年月：1976年11月</p>
+                        <p>学位：硕士</p>
+                        <p>职称：讲师</p>
+                        <p>学科专业：计算机应用技术</p>
+                        <p>承担工作：主讲教师</p>
+                        <p>电话：15827411181</p>
+                        <p>邮箱：lixiaohong@whut.edu.cn</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h2 id="teaching-3">教学课件<button type="button" class="btn btn-success download" id="courseware" onclick="showDiv()">上传</button></h2>
+            <div>
+                <table id="course" class="table table-hover">
+                    <thead>
+                        <tr>
+                            <td>课件</td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;下载</td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;删除</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <script>
+                function showDiv()
+                {
+                    var Idiv = document.getElementById("Idiv");
+                    var mou_head = document.getElementById('mou_head');
+                    Idiv.style.display = "block";
+                    //以下部分要将弹出层居中显示
+                    Idiv.style.left=(document.documentElement.clientWidth-Idiv.clientWidth)/2+document.documentElement.scrollLeft+"px";
+                    Idiv.style.top =(document.documentElement.clientHeight-Idiv.clientHeight)/2+document.documentElement.scrollTop-50+"px";
+ 
+                    //以下部分使整个页面至灰不可点击
+                    var procbg = document.createElement("div"); //首先创建一个div
+                    procbg.setAttribute("id","mybg"); //定义该div的id
+                    procbg.style.background = "#000000";
+                    procbg.style.width = "100%";
+                    procbg.style.height = "100%";
+                    procbg.style.position = "fixed";
+                    procbg.style.top = "0";
+                    procbg.style.left = "0";
+                    procbg.style.zIndex = "500";
+                    procbg.style.opacity = "0.6";
+                    procbg.style.filter = "Alpha(opacity=70)";
+                    //背景层加入页面
+                    document.body.appendChild(procbg);
+                    document.body.style.overflow = "hidden"; //取消滚动条
+ 
+                    //以下部分实现弹出层的拖拽效果
+                    var posX;
+                    var posY;
+                    mou_head.onmousedown=function(e)
+                    {
+                        if(!e) e = window.event; //IE
+                        posX = e.clientX - parseInt(Idiv.style.left);
+                        posY = e.clientY - parseInt(Idiv.style.top);
+                        document.onmousemove = mousemove;
+                    }
+                    document.onmouseup = function()
+                    {
+                        document.onmousemove = null;
+                    }
+                    function mousemove(ev)
+                    {
+                        if(ev==null) ev = window.event;//IE
+                        Idiv.style.left = (ev.clientX - posX) + "px";
+                        Idiv.style.top = (ev.clientY - posY) + "px";
+                    }
+                }
+                function closeDiv() //关闭弹出层
+                {
+                    var Idiv=document.getElementById("Idiv");
+                    Idiv.style.display="none";
+                    document.body.style.overflow = "auto"; //恢复页面滚动条
+                    var body = document.getElementsByTagName("body");
+                    var mybg = document.getElementById("mybg");
+                    body[0].removeChild(mybg);
+                }
+                function upload() {
+                    //var fileName = $('#coursename').val();
+                    var filePath = $('#inputfile').val();
+                    //if (fileName == null || fileName == "" || fileName == undefined) {
+                    //    alert("文件名不能为空！");
+                    //    //closeDiv();
+                    //    //self.location = "teaching.html";
+                    //    //return false;
+                    //}
+                    if (filePath == null || filePath == "" || filePath == undefined) {
+                        alert("路径不能为空！");
+                        //closeDiv();
+                        //self.location = "teaching.html";
+                        //return false;
+                    }
+                    //closeDiv();
+                    var data = {
+                        //fileName:fileName,
+                        filePath:filePath,
+                    };
+                    alert(filePath);
+                    $.ajaxFileUpload({
+                        type: 'post',
+                        url: '../Handler/teaching.ashx?',
+                        data: data,
+                        fileElementId: 'inputfile',
+                        dataType: 'JSON',
+                        success: function (data) {
+                            if (data=="1") {
+                                alert("上传成功！");
+                                closeDiv();
+                                //self.location = "teaching.html";
+                            }
+                            else {
+                                alert("上传失败！");
+                                closeDiv();
+                                //self.location = "teaching.html";
+                                return false;
+                            }
+                        }
+                    })
+                    window.location.reload();
+                }
+               </script>
+                <!--弹出层开始-->
+
+                <div id="Idiv" style="display:none; position:absolute; z-index:900; background:#67a3d9;">
+                    <div id="mou_head">
+                        <!--这个是用来实现拖层-->
+                        <div id="dialog-form">
+                            <div class="uploadtitle">上传课件</div>
+                            <form class="form-horizontal" role="form" action="" method="post" enctype="multipart/form-data">
+                                <fieldset>
+                                    <!--<div class="uploaditem">
+                                        <label for="coursename" style="font-weight: normal; color: black">课件名称</label>
+                                        <input type="text" id="coursename" value="" class="text form-control" style="border-color:forestgreen;">
+                                    </div>-->
+                                    <div class="uploaditem">
+                                        <label for="coursepath" style="font-weight:normal;color:black">课件路径</label>
+                                        <input type="file" id="inputfile" name="inputfile" class="text  ui-widget-content ui-corner-all" style="font-size:17px">
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="uploadbtn">
+                            <input type="button" value="确定" class="btn btn-success" id="upconfirm" onclick="upload()" style="width:80px;margin-right:15px" />
+                            <input type="button" value="取消" class="btn btn-default" id="upcancel" onclick="closeDiv()" style="width:80px" />
+                        </div>
+                        <div class="uploadfoot"></div>
+                    </div>
+                </div>
+                <!--结束-->
+            <hr>
+            <h2 id="teaching-4">电子教材</h2>
+            <table class=" table table-hover books" >
+                <thead>
+                    <tr>
+                        <td>书名</td>
+                        <td>作者和译者</td>
+                        <td>出版社</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;下载</td>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;删除</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>算法导论（第3版）</td>
+                        <td>Thomas H.Cormen等（著），殷建平等（译）</td>
+                        <td>机械工业出版社</td>
+                        <td><button type="button" class="btn btn-success download" onclick="window.location.href = '../Docs/算法导论（中文第三版）.pdf'">下载</button></td>
+                        <td><button type="button" class="btn btn-warning deletebtn" onclick="">删除</button></td>                    
+                    </tr>
+                    <tr>
+                        <td>Introduction to Algorithms(3rd ed.)</td>
+                        <td>Thomas H.Cormen等（著）</td>
+                        <td>The MIT Press</td>
+                        <td><button type="button" class="btn btn-success download" onclick="window.location.href = '../Docs/Introduction to Algorithms .pdf'">下载</button></td>
+                        <td><button type="button" id="btn_del" class="btn btn-warning deletebtn" onclick="deletecourse('../Docs/Introduction to Algorithms .pdf')">删除</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

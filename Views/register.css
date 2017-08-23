@@ -1,0 +1,28 @@
+body{
+    width:100%;
+    height:100%;
+    background:url('image/login_1.jpg') no-repeat;
+}
+.word{
+    margin:250px 50px 250px 200px;
+    float:left;
+    text-align:center;
+}
+.register{
+    width:400px;
+    margin:100px 200px 100px 50px;
+    border:1px solid #C0C0C0;
+    border-radius:5px;
+    float:right;
+}
+.text{
+    margin:20px;
+}
+.btn-success{
+    width:358px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.empty{
+    margin-bottom:20px;
+}

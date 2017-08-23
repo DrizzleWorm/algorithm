@@ -1,0 +1,3278 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="算法设计与分析考试题及答案.files/filelist.xml">
+<link rel=Edit-Time-Data href="算法设计与分析考试题及答案.files/editdata.mso">
+<link rel=OLE-Object-Data href="算法设计与分析考试题及答案.files/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><o:SmartTagType
+ namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="chmetcnv"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>微软中国</o:Author>
+  <o:LastAuthor>admin</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>328</o:TotalTime>
+  <o:Created>2016-06-07T01:51:00Z</o:Created>
+  <o:LastSaved>2016-06-07T01:51:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1220</o:Words>
+  <o:Characters>6956</o:Characters>
+  <o:Company>微软中国</o:Company>
+  <o:Lines>57</o:Lines>
+  <o:Paragraphs>16</o:Paragraphs>
+  <o:CharactersWithSpaces>8160</o:CharactersWithSpaces>
+  <o:Version>15.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:TargetScreenSize>800x600</o:TargetScreenSize>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=dataStoreItem href="算法设计与分析考试题及答案.files/item0001.xml"
+target="算法设计与分析考试题及答案.files/props002.xml">
+<link rel=themeData href="算法设计与分析考试题及答案.files/themedata.thmx">
+<link rel=colorSchemeMapping href="算法设计与分析考试题及答案.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:FormsDesign/>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseWord2010TableStyleRules/>
+   <w:DontGrowAutofit/>
+   <w:DontUseIndentAsNumberingTabStop/>
+   <w:FELineBreak11/>
+   <w:WW11IndentRules/>
+   <w:DontAutofitConstrainedTables/>
+   <w:AutofitLikeWW11/>
+   <w:HangulWidthLikeWW11/>
+   <w:UseNormalStyleForList/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" LatentStyleCount="371">
+  <w:LsdException Locked="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-alt:SimHei;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:SimSun+3;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:黑体;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:1 135135232 16 0 262144 0;}
+@font-face
+	{font-family:SimSun+1;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:"Times New Roman";
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@黑体";
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"\@SimSun+3";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:1 135135232 16 0 262144 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-unhide:no;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-unhide:no;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+p
+	{mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	mso-font-kerning:1.0pt;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	mso-font-kerning:1.0pt;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-fareast-font-family:宋体;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("算法设计与分析考试题及答案.files/header.htm") fs;
+	mso-footnote-continuation-separator:url("算法设计与分析考试题及答案.files/header.htm") fcs;
+	mso-endnote-separator:url("算法设计与分析考试题及答案.files/header.htm") es;
+	mso-endnote-continuation-separator:url("算法设计与分析考试题及答案.files/header.htm") ecs;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:769741468;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-710247814 207542994 645017622 867585760 1976193002 815064520 -1471508390 1671753314 -476137200 1423848514;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0D8;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1323924213;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1029694794 -2081504320 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-text:%1、;
+	mso-level-tab-stop:39.0pt;
+	mso-level-number-position:left;
+	margin-left:39.0pt;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:42.0pt;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l1:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:63.0pt;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:84.0pt;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l1:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:105.0pt;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l1:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:126.0pt;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:147.0pt;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:168.0pt;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l1:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:189.0pt;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+@list l2
+	{mso-list-id:1975795985;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1622726292 -565561644 -2081504320 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-number-format:japanese-counting;
+	mso-level-text:%1、;
+	mso-level-tab-stop:21.0pt;
+	mso-level-number-position:left;
+	margin-left:21.0pt;
+	text-indent:-21.0pt;}
+@list l2:level2
+	{mso-level-text:%2、;
+	mso-level-tab-stop:39.0pt;
+	mso-level-number-position:left;
+	margin-left:39.0pt;
+	text-indent:-18.0pt;}
+@list l2:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:63.0pt;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:84.0pt;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l2:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:105.0pt;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l2:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:126.0pt;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:147.0pt;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l2:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:168.0pt;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l2:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:189.0pt;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2049"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt;text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0'><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>1.</span><span
+style='font-size:14.0pt;font-family:宋体'>一个算法就是一个有穷规则的集合，其中之规则规定了解决某一特殊类型问题的一系列运算，此外，算法还应具有以下五个重要特性<span
+lang=EN-US>:_________,________,________,__________,__________</span>。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:-21.0pt;mso-char-indent-count:
+-1.5'><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>2.</span><span
+style='font-size:14.0pt;font-family:宋体'>算法的复杂性有<span lang=EN-US>_____________</span>和<span
+lang=EN-US>___________</span>之分，衡量一个算法好坏的标准是<span lang=EN-US>______________________</span>。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:-21.0pt;mso-char-indent-count:
+-1.5'><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>3.</span><span
+style='font-size:14.0pt;font-family:宋体'>某一问题可用动态规划算法求解的显著特征是<span lang=EN-US>____________________________________</span>。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0'><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>4.</span><span
+style='font-size:14.0pt;font-family:宋体'>若序列<span lang=EN-US>X={B,C,A,D,B,C,D}</span>，<span
+lang=EN-US>Y={A,C,B,A,B,D,C,D}</span>，请给出序列<span lang=EN-US>X</span>和<span
+lang=EN-US>Y</span>的一个最长公共子序列<span lang=EN-US>_____________________________</span>。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0'><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>5.</span><span
+style='font-size:14.0pt;font-family:宋体'>用回溯法解问题时，应明确定义问题的解空间，问题的解空间至少应包含<span
+lang=EN-US>___________</span>。 <span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0'><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>6.</span><span
+style='font-size:14.0pt;font-family:宋体'>动态规划算法的基本思想是将待求解问题分解成若干<span
+lang=EN-US>____________</span>，先求解<span lang=EN-US>___________</span>，然后从这些<span
+lang=EN-US>____________</span>的解得到原问题的解。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>7.</span><span
+style='font-size:14.0pt;font-family:宋体'>以深度优先方式系统搜索问题解的算法称为<span lang=EN-US>_____________</span>。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0'><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>8.0-1</span><span
+style='font-size:14.0pt;font-family:宋体'>背包问题的回溯算法所需的计算时间为<span lang=EN-US>_____________,</span>用动态规划算法所需的计算时间为<span
+lang=EN-US>____________</span>。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='margin-left:21.0pt;text-align:left;
+text-indent:-21.0pt;mso-char-indent-count:-1.5'><span lang=EN-US
+style='font-size:14.0pt;font-family:宋体'>9.</span><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>动态规划算法的两个基本要素是</span><span lang=EN-US style='font-size:14.0pt'>___________</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>和</span><span lang=EN-US
+style='font-size:14.0pt'>___________</span><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>。</span><span lang=EN-US style='font-size:14.0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>10.</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";color:#323E32'>二分搜索算法是利用</span><span
+lang=EN-US style='font-size:14.0pt;color:#323E32'>_______________</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";color:#323E32'>实现的算法。</span><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>二、综合题</span></b><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>（</span><span lang=EN-US
+style='font-size:14.0pt'>50</span><span style='font-size:14.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>分）</span><span
+lang=EN-US style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>1.</span><span
+style='font-size:14.0pt;font-family:宋体'>写出设计动态规划算法的主要步骤。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>2.</span><span
+style='font-size:14.0pt;font-family:宋体'>流水作业调度问题的<span lang=EN-US>johnson</span>算法的思想。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>3.</span><span
+style='font-size:14.0pt;font-family:宋体'>若<span lang=EN-US>n=4</span>，在机器<span
+lang=EN-US>M1</span>和<span lang=EN-US>M2</span>上加工作业<span lang=EN-US>i</span>所需的时间分别为<span
+lang=EN-US>a<sub>i</sub></span>和<span lang=EN-US>b<sub>i</sub></span>，且<span
+lang=EN-US>(a<sub>1</sub>,a<sub>2</sub>,a<sub>3</sub>,a<sub>4</sub>)=(4,5,12,10)</span>，<span
+lang=EN-US>(b<sub>1</sub>,b<sub>2</sub>,b<sub>3</sub>,b<sub>4</sub>)=(8,2,15,9)</span>求<span
+lang=EN-US>4</span>个作业的最优调度方案，并计算最优值。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:宋体;
+mso-bidi-font-family:宋体;mso-font-kerning:0pt'>4.</span><span style='font-size:
+14.0pt;font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt'>使用回溯法解<span
+lang=EN-US>0/1</span>背包问题：<span lang=EN-US>n=3</span>，<span lang=EN-US>C=9</span>，<span
+lang=EN-US>V={6,10,3}</span>，<span lang=EN-US>W={3,4,4},</span>其解空间有长度为<span
+lang=EN-US>3</span>的<span lang=EN-US>0-1</span>向量组成，要求用一棵完全二叉树表示其解空间（从根出发，左<span
+lang=EN-US>1</span>右<span lang=EN-US>0</span>），并画出其解空间树，计算其最优值及最优解。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>5.</span><span
+style='font-size:14.0pt;font-family:宋体'>设<span lang=EN-US>S=</span>｛<span
+lang=EN-US>X<sub>1</sub></span>，<span lang=EN-US>X<sub>2</sub></span>，···，<span
+lang=EN-US>X<sub>n</sub></span>｝是严格递增的有序集，利用二叉树的结点来存储<span lang=EN-US>S</span>中的元素，在表示<span
+lang=EN-US>S</span>的二叉搜索树中搜索一个元素<span lang=EN-US>X</span>，返回的结果有两种情形，（<span
+lang=EN-US>1</span>）在二叉搜索树的内结点中找到<span lang=EN-US>X=X<sub>i</sub></span>，其概率为<span
+lang=EN-US>b<sub>i</sub></span>。（<span lang=EN-US>2</span>）在二叉搜索树的叶结点中确定<span
+lang=EN-US>X</span>∈（<span lang=EN-US>X<sub>i</sub></span>，<span lang=EN-US>X<sub>i+1</sub></span>），其概率为<span
+lang=EN-US>a<sub>i</sub></span>。在表示<span lang=EN-US>S</span>的二叉搜索树<span
+lang=EN-US>T</span>中，设存储元素<span lang=EN-US>X<sub>i</sub></span>的结点深度为<span
+lang=EN-US>C<sub>i</sub></span>；叶结点（<span lang=EN-US>X<sub>i</sub></span>，<span
+lang=EN-US>X<sub>i+1</sub></span>）的结点深度为<span lang=EN-US>d<sub>i</sub></span>，则二叉搜索树<span
+lang=EN-US>T</span>的平均路长<span lang=EN-US>p</span>为多少？假设二叉搜索树<span lang=EN-US>T[i][j]=</span>｛<span
+lang=EN-US>X<sub>i</sub></span>，<span lang=EN-US>X<sub>i+1</sub></span>，···，<span
+lang=EN-US>X<sub>j</sub></span>｝最优值为<span lang=EN-US>m[i][j]</span>，<span
+lang=EN-US>W[i][j]= a<sub>i-1</sub>+b<sub>i</sub>+</span>···<span lang=EN-US>+b<sub>j</sub>+a<sub>j</sub></span>，则<span
+lang=EN-US>m[i][j](1&lt;=i&lt;=j&lt;=n)</span>递归关系表达式为什么？<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:宋体'>6.</span><span
+style='font-size:14.0pt;font-family:宋体'>描述<span lang=EN-US>0-1</span>背包问题。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='tab-stops:156.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>三、简答题</span></b><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>（</span><span lang=EN-US
+style='font-size:14.0pt'>30</span><span style='font-size:14.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>分）</span><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:156.0pt'><span lang=EN-US style='font-size:
+14.0pt'>1.</span><span style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>流水作业调度中，已知有</span><span
+lang=EN-US style='font-size:14.0pt'>n</span><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>个作业，</span><span style='font-size:14.0pt;font-family:宋体'>机器<span
+lang=EN-US>M1</span>和<span lang=EN-US>M2</span>上加工作业<span lang=EN-US>i</span>所需的时间分别为<span
+lang=EN-US>a<sub>i</sub></span>和<span lang=EN-US>b<sub>i</sub></span>，请写出流水作业调度问题的<span
+lang=EN-US>johnson</span>法则中对<span lang=EN-US>a<sub>i</sub></span>和<span
+lang=EN-US>b<sub>i</sub></span>的排序算法。（函数名可写为<span lang=EN-US>sort(s,n)</span>）</span><span
+lang=EN-US style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:156.0pt'><span lang=EN-US style='font-size:
+14.0pt'>2.</span><span style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>最优二叉搜索树问题的动态规划算法（设函数名</span><span
+lang=EN-US style='font-size:14.0pt'>binarysearchtree)</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>）</span><span lang=EN-US
+style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:156.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>答案：</span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:14.0pt'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='tab-stops:156.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>一、填空</span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:14.0pt'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0;tab-stops:156.0pt'><span lang=EN-US style='font-size:14.0pt;font-family:
+宋体'>1</span><span style='font-size:14.0pt;font-family:宋体'>．确定性<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp; </span></span>有穷性<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp; </span></span>可行性<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp; </span>0</span>个或多个输入<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp; </span></span>一个或多个输出<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0;tab-stops:156.0pt'><span lang=EN-US style='font-size:14.0pt;font-family:
+宋体'>2.</span><span style='font-size:14.0pt;font-family:宋体'>时间复杂性<span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp; </span></span>空间复杂性<span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp; </span></span></span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>时间复杂度高低</span><span lang=EN-US
+style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0;tab-stops:156.0pt'><span lang=EN-US style='font-size:14.0pt;font-family:
+宋体'>3. </span><span style='font-size:14.0pt;font-family:宋体'>该问题具有最优子结构性质<span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp; </span><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0;tab-stops:156.0pt'><span lang=EN-US style='font-size:14.0pt;font-family:
+宋体'>4.{BABCD}</span><span style='font-size:14.0pt;font-family:宋体'>或<span
+lang=EN-US>{CABCD}</span>或<span lang=EN-US>{CADCD</span>｝<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp; </span><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0;tab-stops:156.0pt'><span lang=EN-US style='font-size:14.0pt;font-family:
+宋体'>5.</span><span style='font-size:14.0pt;font-family:宋体'>一个（最优）解 <span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='tab-stops:156.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'>6.</span><span style='font-size:14.0pt;font-family:宋体'>子问题<span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span>子问题<span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span>子问题 <span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='tab-stops:156.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'>7.</span><span style='font-size:14.0pt;font-family:宋体'>回溯法
+<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='tab-stops:156.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'>8. o(n*2<sup>n</sup>)<span
+style='mso-spacerun:yes'>&nbsp; </span>o(min{nc,2<sup>n</sup>})<o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:156.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'>9.</span><span style='font-size:14.0pt;font-family:宋体'>最优子结构<span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp; </span></span>重叠子问题<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='tab-stops:156.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'>10.</span><span style='font-size:14.0pt;font-family:
+宋体'>动态规划法<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='tab-stops:156.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;font-family:宋体'>二、综合题<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0;tab-stops:156.0pt'><span lang=EN-US style='font-size:14.0pt;font-family:
+宋体'>1.</span><span style='font-size:14.0pt;font-family:宋体'>①问题具有最优子结构性质；②构造最优值的递归关系表达式；<span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp; </span></span>③最优值的算法描述；④构造最优解；<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0;tab-stops:156.0pt'><span lang=EN-US style='font-size:14.0pt;font-family:
+宋体'>2. </span><span style='font-size:14.0pt;font-family:宋体'>①令<span lang=EN-US>N<sub>1</sub>={i|a<sub>i</sub>&lt;b<sub>i</sub>}</span>，<span
+lang=EN-US>N<sub>2</sub>={i|a<sub>i</sub>&gt;=b<sub>i</sub>}</span>；②将<span
+lang=EN-US>N<sub>1</sub></span>中作业按<span lang=EN-US>a<sub>i</sub></span>的非减序排序得到<span
+lang=EN-US>N<st1:chmetcnv TCSC="0" NumberType="1" Negative="False"
+HasSpace="False" SourceValue="1" UnitName="’" w:st="on"><sub>1</sub><span
+ lang=EN-US><span lang=EN-US>’</span></span></st1:chmetcnv></span>，将<span
+lang=EN-US>N<sub>2</sub></span>中作业按<span lang=EN-US>b<sub>i</sub></span>的非增序排序得到<span
+lang=EN-US>N<st1:chmetcnv TCSC="0" NumberType="1" Negative="False"
+HasSpace="False" SourceValue="2" UnitName="’" w:st="on"><sub>2</sub><span
+ lang=EN-US><span lang=EN-US>’</span></span></st1:chmetcnv></span>；③<span
+lang=EN-US>N<st1:chmetcnv TCSC="0" NumberType="1" Negative="False"
+HasSpace="False" SourceValue="1" UnitName="’" w:st="on"><sub>1</sub><span
+ lang=EN-US><span lang=EN-US>’</span></span></st1:chmetcnv></span>中作业接<span
+lang=EN-US>N<st1:chmetcnv TCSC="0" NumberType="1" Negative="False"
+HasSpace="False" SourceValue="2" UnitName="’" w:st="on"><sub>2</sub><span
+ lang=EN-US><span lang=EN-US>’</span></span></st1:chmetcnv></span>中作业就构成了满足<span
+lang=EN-US>Johnson</span>法则的最优调度。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0;tab-stops:156.0pt'><span lang=EN-US style='font-size:14.0pt;font-family:
+宋体'>3.</span><span style='font-size:14.0pt;font-family:宋体'>步骤为：<span
+lang=EN-US>N1={1</span>，<span lang=EN-US>3}</span>，<span lang=EN-US>N2={2</span>，<span
+lang=EN-US>4}</span>；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:14.05pt;mso-para-margin-left:1.34gd;
+text-indent:56.0pt;mso-char-indent-count:4.0;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>N<st1:chmetcnv TCSC="0"
+NumberType="1" Negative="False" HasSpace="False" SourceValue="1" UnitName="’"
+w:st="on"><sub>1</sub><span lang=EN-US><span lang=EN-US>’</span></span></st1:chmetcnv>={1</span><span
+style='font-size:14.0pt;font-family:宋体'>，<span lang=EN-US>3}</span>， <span
+lang=EN-US>N<st1:chmetcnv TCSC="0" NumberType="1" Negative="False"
+HasSpace="False" SourceValue="2" UnitName="’" w:st="on"><sub>2</sub><span
+ lang=EN-US><span lang=EN-US>’</span></span></st1:chmetcnv>={4</span>，<span
+lang=EN-US>2}</span>；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:14.05pt;mso-para-margin-left:1.34gd;
+text-indent:56.0pt;mso-char-indent-count:4.0;tab-stops:156.0pt'><span
+style='font-size:14.0pt;font-family:宋体'>最优值为：<span lang=EN-US>38<o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:14.0pt;font-family:宋体;
+mso-bidi-font-family:宋体;mso-font-kerning:0pt'>4.</span><span style='font-size:
+14.0pt;font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt'>解空间为<span
+lang=EN-US>{(0,0,0),(0,1,0),(0,0,1),(1,0,0),(0,1,1),(1,0,1),<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;mso-char-indent-count:1.0'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-bidi-font-family:宋体;
+mso-font-kerning:0pt'>(1,1,0),(1,1,1)}</span><span style='font-size:14.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt'>。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;font-family:宋体;mso-bidi-font-family:
+宋体;mso-font-kerning:0pt'>解空间树为：<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><span style='mso-element:
+field-begin;mso-field-lock:yes'></span><span
+style='mso-spacerun:yes'>&nbsp;</span>SHAPE<span
+style='mso-spacerun:yes'>&nbsp; </span>\* MERGEFORMAT <span style='mso-element:
+field-separator'></span></span><![endif]--><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'><!--[if gte vml 1]><v:group id="_x0000_s1029" editas="canvas"
+ style='width:378pt;height:202.8pt;mso-position-horizontal-relative:char;
+ mso-position-vertical-relative:line' coordorigin="2340,3546" coordsize="7560,4056">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75"
+  o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+  <v:stroke joinstyle="miter"/>
+  <v:formulas>
+   <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+   <v:f eqn="sum @0 1 0"/>
+   <v:f eqn="sum 0 0 @1"/>
+   <v:f eqn="prod @2 1 2"/>
+   <v:f eqn="prod @3 21600 pixelWidth"/>
+   <v:f eqn="prod @3 21600 pixelHeight"/>
+   <v:f eqn="sum @0 0 1"/>
+   <v:f eqn="prod @6 1 2"/>
+   <v:f eqn="prod @7 21600 pixelWidth"/>
+   <v:f eqn="sum @8 21600 0"/>
+   <v:f eqn="prod @7 21600 pixelHeight"/>
+   <v:f eqn="sum @10 21600 0"/>
+  </v:formulas>
+  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+  <o:lock v:ext="edit" aspectratio="t"/>
+ </v:shapetype><v:shape id="_x0000_s1030" type="#_x0000_t75" style='position:absolute;
+  left:2340;top:3546;width:7560;height:4056' o:preferrelative="f">
+  <v:fill o:detectmouseclick="t"/>
+  <v:path o:extrusionok="t" o:connecttype="none"/>
+  <o:lock v:ext="edit" text="t"/>
+ </v:shape><v:oval id="_x0000_s1031" style='position:absolute;left:6119;top:3702;
+  width:541;height:623'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1031'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>A</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1032" style='position:absolute;left:4500;top:4482;
+  width:541;height:622'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1032'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>B</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1033" style='position:absolute;left:7558;top:4482;
+  width:542;height:622'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1033'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>C</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1034" style='position:absolute;left:7025;top:5574;
+  width:535;height:624'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1034'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>F</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1035" style='position:absolute;left:4860;top:5574;
+  width:541;height:624'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1035'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>E</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1036" style='position:absolute;left:3600;top:5574;
+  width:541;height:622'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1036'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>D</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1037" style='position:absolute;left:8279;top:5574;
+  width:541;height:624'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1037'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>G</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1038" style='position:absolute;left:5400;top:6822;
+  width:541;height:624'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1038'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>K</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1039" style='position:absolute;left:4500;top:6822;
+  width:541;height:624'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1039'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>J</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1040" style='position:absolute;left:3780;top:6822;
+  width:541;height:621'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1040'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>I</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1041" style='position:absolute;left:2880;top:6822;
+  width:542;height:621'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1041'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>H</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1042" style='position:absolute;left:8999;top:6823;
+  width:541;height:623'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1042'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>O</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1043" style='position:absolute;left:8099;top:6822;
+  width:541;height:623'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1043'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>N</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1044" style='position:absolute;left:7380;top:6822;
+  width:540;height:622'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1044'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>M</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:oval id="_x0000_s1045" style='position:absolute;left:6479;top:6822;
+  width:541;height:622'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1045'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>L</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:oval><v:line id="_x0000_s1050" style='position:absolute' from="6660,4014"
+  to="7560,4638"/>
+ <v:line id="_x0000_s1051" style='position:absolute;flip:x' from="5040,4014"
+  to="6120,4638"/>
+ <v:line id="_x0000_s1052" style='position:absolute;flip:x' from="3960,4950"
+  to="4500,5574"/>
+ <v:line id="_x0000_s1053" style='position:absolute' from="4860,5104" to="5025,5592"/>
+ <v:line id="_x0000_s1054" style='position:absolute;flip:x' from="7380,5106"
+  to="7740,5574"/>
+ <v:line id="_x0000_s1055" style='position:absolute' from="8100,4950" to="8460,5574"/>
+ <v:line id="_x0000_s1056" style='position:absolute;flip:x' from="3240,6141"
+  to="3750,6822"/>
+ <v:line id="_x0000_s1057" style='position:absolute' from="3960,6198" to="3960,6822"/>
+ <v:line id="_x0000_s1058" style='position:absolute;flip:x' from="4860,6162"
+  to="5010,6822"/>
+ <v:line id="_x0000_s1059" style='position:absolute' from="5265,6177" to="5580,6822"/>
+ <v:line id="_x0000_s1060" style='position:absolute;flip:x' from="6840,6141"
+  to="7140,6822"/>
+ <v:line id="_x0000_s1061" style='position:absolute' from="7380,6198" to="7560,6822"/>
+ <v:line id="_x0000_s1062" style='position:absolute;flip:x' from="8280,6198"
+  to="8460,6822"/>
+ <v:line id="_x0000_s1063" style='position:absolute' from="8820,6042" to="9180,6822"/>
+ <v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+  <v:stroke joinstyle="miter"/>
+  <v:path gradientshapeok="t" o:connecttype="rect"/>
+ </v:shapetype><v:shape id="_x0000_s1064" type="#_x0000_t202" style='position:absolute;
+  left:5220;top:4014;width:360;height:468' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1064'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>1</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1065" type="#_x0000_t202" style='position:absolute;
+  left:3960;top:4950;width:360;height:468' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1065'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>1</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1066" type="#_x0000_t202" style='position:absolute;
+  left:3060;top:6198;width:360;height:468' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1066'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>1</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1067" type="#_x0000_t202" style='position:absolute;
+  left:7020;top:4014;width:540;height:624' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1067'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>0</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1068" type="#_x0000_t202" style='position:absolute;
+  left:8280;top:5106;width:360;height:468' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1068'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>0</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1069" type="#_x0000_t202" style='position:absolute;
+  left:4980;top:5037;width:390;height:447' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1069'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>0</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1070" type="#_x0000_t202" style='position:absolute;
+  left:3960;top:6354;width:360;height:468' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1070'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>0</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1071" type="#_x0000_t202" style='position:absolute;
+  left:4500;top:6354;width:360;height:468' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1071'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>1</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1072" type="#_x0000_t202" style='position:absolute;
+  left:5400;top:6354;width:360;height:468' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1072'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>0</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1073" type="#_x0000_t202" style='position:absolute;
+  left:7200;top:5106;width:360;height:468' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1073'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>1</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1074" type="#_x0000_t202" style='position:absolute;
+  left:6779;top:6141;width:285;height:399' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1074'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>1</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1075" type="#_x0000_t202" style='position:absolute;
+  left:7425;top:6196;width:420;height:469' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1075'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>0</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1076" type="#_x0000_t202" style='position:absolute;
+  left:8100;top:6198;width:360;height:468' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1076'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>1</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:shape id="_x0000_s1077" type="#_x0000_t202" style='position:absolute;
+  left:9000;top:6198;width:360;height:468' filled="f" stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1077'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal><span lang=EN-US>0</span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><w:wrap type="none"/>
+ <w:anchorlock/>
+</v:group><![endif]--><![if !vml]><img width=504 height=270
+src="算法设计与分析考试题及答案.files/image001.gif" v:shapes="_x0000_s1029 _x0000_s1030 _x0000_s1031 _x0000_s1032 _x0000_s1033 _x0000_s1034 _x0000_s1035 _x0000_s1036 _x0000_s1037 _x0000_s1038 _x0000_s1039 _x0000_s1040 _x0000_s1041 _x0000_s1042 _x0000_s1043 _x0000_s1044 _x0000_s1045 _x0000_s1050 _x0000_s1051 _x0000_s1052 _x0000_s1053 _x0000_s1054 _x0000_s1055 _x0000_s1056 _x0000_s1057 _x0000_s1058 _x0000_s1059 _x0000_s1060 _x0000_s1061 _x0000_s1062 _x0000_s1063 _x0000_s1064 _x0000_s1065 _x0000_s1066 _x0000_s1067 _x0000_s1068 _x0000_s1069 _x0000_s1070 _x0000_s1071 _x0000_s1072 _x0000_s1073 _x0000_s1074 _x0000_s1075 _x0000_s1076 _x0000_s1077"><![endif]></span><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><v:shape id="_x0000_i1025"
+ type="#_x0000_t75" style='width:378pt;height:202.8pt'>
+ <v:imagedata croptop="-65520f" cropbottom="65520f"/>
+</v:shape><span style='mso-element:field-end'></span></span><![endif]--><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;font-family:宋体'>该问题的最优值为：<span
+lang=EN-US>16<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span>最优解为：（<span
+lang=EN-US>1</span>，<span lang=EN-US>1</span>，<span lang=EN-US>0</span>）</span><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-bidi-font-family:宋体;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:group id="_x0000_s1084" editas="canvas"
+ style='position:absolute;left:0;text-align:left;margin-left:0;margin-top:39pt;
+ width:450pt;height:79.8pt;z-index:-251661824' coordorigin="2519,9355"
+ coordsize="7826,1390">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <v:shape id="_x0000_s1085" type="#_x0000_t75" style='position:absolute;left:2519;
+  top:9355;width:7826;height:1390' o:preferrelative="f">
+  <v:fill o:detectmouseclick="t"/>
+  <v:path o:extrusionok="t" o:connecttype="none"/>
+  <o:lock v:ext="edit" text="t"/>
+ </v:shape></v:group><![endif]--><![if !vml]><span style='mso-ignore:vglayout;
+position:absolute;z-index:-1895828992;left:0px;margin-left:0px;margin-top:52px;
+width:600px;height:106px'><img width=600 height=106
+src="算法设计与分析考试题及答案.files/image002.gif" v:shapes="_x0000_s1084 _x0000_s1085"></span><![endif]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>5.</span><span
+style='font-size:14.0pt;font-family:宋体'>二叉树<span lang=EN-US>T</span>的平均路长<span
+lang=EN-US>P=<sub><!--[if gte vml 1]><v:shape id="_x0000_i1026" type="#_x0000_t75"
+ style='width:1in;height:33.75pt' o:ole="">
+ <v:imagedata src="算法设计与分析考试题及答案.files/image003.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=96 height=45
+src="算法设计与分析考试题及答案.files/image004.gif" v:shapes="_x0000_i1026"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1026"
+  DrawAspect="Content" ObjectID="_1526798259">
+ </o:OLEObject>
+</xml><![endif]-->+<sub><!--[if gte vml 1]><v:shape id="_x0000_i1027" type="#_x0000_t75"
+ style='width:44.25pt;height:35.25pt' o:ole="">
+ <v:imagedata src="算法设计与分析考试题及答案.files/image005.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=59 height=47
+src="算法设计与分析考试题及答案.files/image006.gif" v:shapes="_x0000_i1027"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1027"
+  DrawAspect="Content" ObjectID="_1526798260">
+ </o:OLEObject>
+</xml><![endif]--> <o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-top:0cm;margin-right:-61.65pt;margin-bottom:
+0cm;margin-left:154.0pt;margin-bottom:.0001pt;mso-para-margin-top:0cm;
+mso-para-margin-right:-5.87gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
+154.0pt;mso-para-margin-bottom:.0001pt;text-indent:-154.0pt;mso-char-indent-count:
+-11.0'><!--[if gte vml 1]><v:shape id="_x0000_s1086" type="#_x0000_t202"
+ style='position:absolute;left:0;text-align:left;margin-left:18.05pt;
+ margin-top:0;width:467.95pt;height:1in;text-indent:0;z-index:251653632'
+ filled="f" stroked="f">
+ <v:textbox style='mso-next-textbox:#_x0000_s1086'/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:251653632;left:0px;margin-left:24px;margin-top:0px;width:628px;
+height:100px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=628 height=100 style='vertical-align:top'><![endif]><![if !mso]><span
+  style='position:absolute;mso-ignore:vglayout;left:0pt;z-index:251653632'>
+  <table cellpadding=0 cellspacing=0 width="100%">
+   <tr>
+    <td><![endif]>
+    <div v:shape="_x0000_s1086" style='padding:3.6pt 7.2pt 3.6pt 7.2pt'
+    class=shape>
+    <p class=MsoNormal style='margin-left:182.0pt;text-indent:-182.0pt;
+    mso-char-indent-count:-13.0'><span lang=EN-US style='font-size:14.0pt;
+    font-family:宋体'>m[i][j]=W[i][j]+min{m[i][k]+m[k+1][j]}
+    (1&lt;=i&lt;=j&lt;=n,m[i][i-1]=0)</span></p>
+    </div>
+    <![if !mso]></td>
+   </tr>
+  </table>
+  </span><![endif]><![if !mso & !vml]>&nbsp;<![endif]><![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><span lang=EN-US style='font-size:14.0pt;font-family:宋体'><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1028" type="#_x0000_t75" style='width:22.5pt;height:1in' o:ole="">
+ <v:imagedata src="算法设计与分析考试题及答案.files/image007.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=30 height=96
+src="算法设计与分析考试题及答案.files/image008.gif" v:shapes="_x0000_i1028"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1028"
+  DrawAspect="Content" ObjectID="_1526798261">
+ </o:OLEObject>
+</xml><![endif]-->m[i][j]=0 <span style='mso-spacerun:yes'>&nbsp;&nbsp;</span>(i&gt;j)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:14.0pt;text-indent:-14.0pt;mso-char-indent-count:
+-1.0;tab-stops:156.0pt'><span lang=EN-US style='font-size:14.0pt;font-family:
+宋体'>6.</span><span style='font-size:14.0pt;font-family:宋体'>已知一个背包的容量为<span
+lang=EN-US>C</span>，有<span lang=EN-US>n</span>件物品，物品<span lang=EN-US>i</span>的重量为<span
+lang=EN-US>W<sub>i</sub></span>，价值为<span lang=EN-US>V<sub>i</sub></span>，求应如何选择装入背包中的物品，使得装入背包中物品的总价值最大。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='tab-stops:156.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;font-family:宋体'>三、简答题<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal style='line-height:24.0pt;mso-line-height-rule:exactly;
+tab-stops:156.0pt'><span lang=EN-US style='font-size:14.0pt'>1.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>void sort(flowjope s[],int n)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span>int i,k,j,l;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span>for(i=1;i&lt;=n-1;i++)//-----</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>选择排序</span><span lang=EN-US
+style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;
+</span>k=i;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;
+</span>while(k&lt;=n&amp;&amp;s[k].tag!=0)<span style='mso-spacerun:yes'>&nbsp;
+</span>k++;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;
+</span>if(k&gt;n)<span style='mso-spacerun:yes'>&nbsp; </span>break;//-----</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>没有</span><span lang=EN-US
+style='font-size:14.0pt'>a<sub>i</sub></span><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>，跳出</span><span lang=EN-US style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;
+</span>else<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;
+</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp;
+</span>for(j=k+1;j&lt;=n;j++)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span>if(s[j].tag==0)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>if(s[k].a&gt;s[j].a)<span style='mso-spacerun:yes'>&nbsp;&nbsp;
+</span>k=j;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp;
+</span>swap(s[i].index,s[k].index);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp;
+</span>swap(s[i].tag,s[k].tag); }<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span>} <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span>l=i;//-----</span><span style='font-size:
+14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>记下当前第一个</span><span lang=EN-US style='font-size:14.0pt'>b<sub>i</sub></span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>的下标</span><span lang=EN-US
+style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span>for(i=l;i&lt;=n-1;i++)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;
+</span>k=i;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;
+</span>for(j=k+1;j&lt;=n;j++)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>if(s[k].b&lt;s[j].b)<span
+style='mso-spacerun:yes'>&nbsp; </span>k=j;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;
+</span>swap(s[i].index,s[k].index); //-----</span><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>只移动</span><span lang=EN-US style='font-size:14.0pt'>index</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>和</span><span lang=EN-US
+style='font-size:14.0pt'>tag<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;
+</span>swap(s[i].tag,s[k].tag);<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>} <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>2.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>void binarysearchtree(int a[],int b[],int
+n,int **m,int **s,int **w)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:right 415.3pt'><span
+lang=EN-US style='font-size:14.0pt'>{<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;mso-char-indent-count:1.0;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span>int i,j,k,t,l;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span><span
+style='mso-spacerun:yes'>&nbsp;</span>for(i=1;i&lt;=n+1;i++)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span><span
+style='mso-spacerun:yes'>&nbsp;</span>{ w[i][i-1]=a[i-1];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span><span style='mso-spacerun:yes'>&nbsp;
+</span><span style='mso-spacerun:yes'>&nbsp;</span>m[i][i-1]=0;}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;mso-char-indent-count:1.0;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span>for(l=0;l&lt;=n-1;l++)//----l</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>是下标</span><span lang=EN-US
+style='font-size:14.0pt'>j-i</span><span style='font-size:14.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>的差</span><span
+lang=EN-US style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt;mso-char-indent-count:2.0;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>for(i=1;i&lt;=n-l;i++)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt;mso-char-indent-count:2.0;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span>{<span style='mso-spacerun:yes'>&nbsp;
+</span>j=i+l;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:56.0pt;mso-char-indent-count:4.0;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>w[i][j]=w[i][j-1]+a[j]+b[j];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:56.0pt;mso-char-indent-count:4.0;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>m[i][j]=m[i][i-1]+m[i+1][j]+w[i][j];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:56.0pt;mso-char-indent-count:4.0;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>s[i][j]=i;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:56.0pt;mso-char-indent-count:4.0;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>for(k=i+1;k&lt;=j;k++)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:56.0pt;mso-char-indent-count:4.0;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;</span>{<span style='mso-spacerun:yes'>&nbsp;
+</span><span
+style='mso-spacerun:yes'>&nbsp;</span>t=m[i][k-1]+m[k+1][j]+w[i][j];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:91.0pt;mso-char-indent-count:6.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>if(t&lt;m[i][j])<span
+style='mso-spacerun:yes'>&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:91.0pt;mso-char-indent-count:6.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>{ m[i][j]=t;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:105.0pt;mso-char-indent-count:7.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>s[i][j]=k;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:98.0pt;mso-char-indent-count:7.0;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:56.0pt;mso-char-indent-count:4.0;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:28.0pt;mso-char-indent-count:2.0;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+line-height:24.0pt;mso-line-height-rule:exactly;tab-stops:156.0pt'><span
+lang=EN-US style='font-size:14.0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-indent:-21.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l2 level1 lfo1;tab-stops:list 21.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:14.0pt;font-family:黑体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:黑体'><span style='mso-list:Ignore'>一、<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:黑体;mso-hansi-font-family:"Times New Roman"'>填空题（本题<span
+lang=EN-US>15</span>分，每小题<span lang=EN-US>1</span>分）<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l2 level2 lfo1;tab-stops:list 27.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>1、<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>算法就是一组有穷的<u><span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></u>，它们规定了解决某一特定类型问题的<u><span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></u><span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp;</span></span>。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l2 level2 lfo1;tab-stops:list 27.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>2、<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>在进行问题的计算复杂性分析之前，首先必须建立求解问题所用的计算模型。<span
+lang=EN-US>3</span>个基本计算模型是<u><span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></u>、<u><span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></u>、<u><span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></u>。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l2 level2 lfo1;tab-stops:list 27.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>3、<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>算法的复杂性是<u><span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></u>的度量，是评价算法优劣的重要依据。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='margin-left:27.0pt;text-align:left;
+text-indent:-18.0pt;line-height:18.0pt;mso-line-height-rule:exactly;mso-list:
+l2 level2 lfo1;tab-stops:list 27.0pt'><![if !supportLists]><span lang=EN-US
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>4、<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>计算机的资源最重要的是<u><span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></u>和<u><span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></u>资源。因而，算法的复杂性有<u><span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></u>和<u><span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></u>之分。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l2 level2 lfo1;tab-stops:list 27.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>5、<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=EN-US style='font-size:14.0pt'>f(n)= 6×2<sup>n</sup>+n<sup>2</sup></span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>，</span><span lang=EN-US
+style='font-size:14.0pt'>f(n)</span><span style='font-size:14.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>的渐进性态</span><span
+lang=EN-US style='font-size:14.0pt'>f(n)= O(<u>&nbsp;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span>&nbsp;</u>&nbsp;)</span><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l2 level2 lfo1;tab-stops:list 27.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>6、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>贪心算法总是做出在当前看来</span><u><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></u><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>的选择。也就是说贪心算法并不从整体最优考虑，它所做出的选择只是在某种意义上的</span><u><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></u><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>。</span><span lang=EN-US
+style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l2 level2 lfo1;tab-stops:list 27.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:14.0pt;mso-fareast-font-family:"Times New Roman"'><span
+style='mso-list:Ignore'>7、<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>许多可以用贪心算法求解的问题一般具有</span><span
+lang=EN-US style='font-size:14.0pt'>2</span><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>个重要的性质：</span><u><span lang=EN-US style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></u><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>性质和</span><u><span lang=EN-US
+style='font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></u><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>性质。</span><span lang=EN-US
+style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly'><span
+style='font-size:14.0pt;font-family:黑体;mso-hansi-font-family:"Times New Roman"'>二、简答题（本题<span
+lang=EN-US>25</span>分，每小题<span lang=EN-US>5</span>分）<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l1 level1 lfo2;tab-stops:list -9.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>1、<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>简单描述分治法的基本思想。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l1 level1 lfo2;tab-stops:list -9.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>2、<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>简述动态规划方法所运用的最优化原理。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l1 level1 lfo2;tab-stops:list -9.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>3、<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>何谓最优子结构性质？<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l1 level1 lfo2;tab-stops:list -9.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>4、<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>简单描述回溯法基本思想。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l1 level1 lfo2;tab-stops:list -9.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>5、<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>何谓<span
+lang=EN-US>P</span>、<span lang=EN-US>NP</span>、<span lang=EN-US>NPC</span>问题<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly;
+mso-outline-level:1'><span style='font-size:14.0pt;font-family:黑体;mso-hansi-font-family:
+"Times New Roman"'>三、算法填空（本题<span lang=EN-US>20</span>分，每小题<span lang=EN-US>5</span>分）<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>1</span><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>、<span
+lang=EN-US>n</span>后问题回溯算法<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>(1)</span><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>用二维数组<span
+lang=EN-US>A[N][N]</span>存储皇后位置<span lang=EN-US>,</span>若第<span lang=EN-US>i</span>行第<span
+lang=EN-US>j</span>列放有皇后<span lang=EN-US>,</span>则<span lang=EN-US>A[i][j]</span>为非<span
+lang=EN-US>0</span>值<span lang=EN-US>,</span>否则值为<span lang=EN-US>0</span>。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>(2)</span><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>分别用一维数组<span
+lang=EN-US>M[N]</span>、<span lang=EN-US>L[2*N-1]</span>、<span lang=EN-US>R[2*N-1]</span>表示竖列、左斜线、右斜线是否放有棋子，有则值为<span
+lang=EN-US>1,</span>否则值为<span lang=EN-US>0</span>。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'>for(j=0;j&lt;N;j++)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'><span style='mso-spacerun:yes'>&nbsp;</span>if(<u><span
+style='mso-spacerun:yes'>&nbsp; </span>1<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></u>)<span
+style='mso-spacerun:yes'>&nbsp; </span>/*</span><span style='font-size:14.0pt;
+font-family:宋体'>安全检查<span lang=EN-US>*/<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:39.75pt;mso-char-indent-count:2.84'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><span
+style='mso-spacerun:yes'>&nbsp;</span>{ A[i][j]=i+1;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>/*</span><span
+style='font-size:14.0pt;font-family:宋体'>放皇后<span lang=EN-US>*/<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+</span><span style='mso-spacerun:yes'>&nbsp;&nbsp;</span><u><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;</span>2<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></u></span><span
+style='font-size:14.0pt;font-family:宋体'>；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+</span><span style='mso-spacerun:yes'>&nbsp;&nbsp;</span>if(i==N-1)<span
+style='mso-spacerun:yes'>&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;</span></span><span style='font-size:14.0pt;
+font-family:宋体'>输出结果；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'><span style='mso-spacerun:yes'>&nbsp;</span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span>else<u><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>3<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></u></span><span
+style='font-size:14.0pt;font-family:宋体'>；<span lang=EN-US>;<span
+style='mso-spacerun:yes'>&nbsp; </span>/*</span>试探下一行<span lang=EN-US>*/<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'><span style='mso-spacerun:yes'>&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;</span><u><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;</span>4<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></u></span><span
+style='font-size:14.0pt;font-family:宋体'>；<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;</span><span
+style='mso-spacerun:yes'>&nbsp;</span>/*</span>去皇后<span lang=EN-US>*/<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'><span style='mso-spacerun:yes'>&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;</span><u><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;</span>5<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></u></span><span
+style='font-size:14.0pt;font-family:宋体'>；<span lang=EN-US>;<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span lang=EN-US style='font-size:
+14.0pt;font-family:宋体'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>2</span><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>、数塔问题。有形如下图所示的数塔，从顶部出发，在每一结点可以选择向左走或是向右走，一起走到底层，要求找出一条路径，使路径上的值最大。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:15.9pt;mso-para-margin-left:.85gd;
+text-indent:-7.0pt;mso-char-indent-count:-.5;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:
+"Times New Roman"'>for(r=n-2;r&gt;=0;r--) //</span><span style='font-size:14.0pt;
+font-family:宋体;mso-hansi-font-family:"Times New Roman"'>自底向上递归计算<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:14.15pt;mso-para-margin-left:1.35gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><!--[if gte vml 1]><v:shape
+ id="_x0000_s1091" type="#_x0000_t75" style='position:absolute;left:0;
+ text-align:left;margin-left:252pt;margin-top:.6pt;width:180pt;height:86.75pt;
+ z-index:251655680'>
+ <v:imagedata src="算法设计与分析考试题及答案.files/image009.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:251655680;left:0px;margin-left:336px;margin-top:1px;
+width:240px;height:116px'><img width=240 height=116
+src="算法设计与分析考试题及答案.files/image010.jpg" v:shapes="_x0000_s1091"></span><![endif]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>for(c=0;<u><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span>1<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u>;c++) <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:14.15pt;mso-para-margin-left:1.35gd;
+text-indent:7.0pt;mso-char-indent-count:.5;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:
+"Times New Roman"'>if( t[r+1][c]&gt;t[r+1][c+1])<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span><u><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>2<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></u></span><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>；<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+text-indent:21.0pt;line-height:18.0pt;mso-line-height-rule:exactly'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>else
+<span style='mso-spacerun:yes'>&nbsp;</span><u><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>3<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></u><span style='mso-spacerun:yes'>&nbsp;</span></span><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>；<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>3</span><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>、<span
+lang=EN-US>Hanoi</span>算法<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>Hanoi(n,a,b,c)<u><o:p></o:p></u></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>if </span><span
+style='font-size:14.0pt;font-family:宋体'>（<span lang=EN-US>n==1</span>）<span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp; </span><u><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;</span>1<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span
+style='mso-spacerun:yes'>&nbsp;</span></span>；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>else<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>{ <u><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>2<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span
+style='mso-spacerun:yes'>&nbsp;</span></span><span style='font-size:14.0pt;
+font-family:宋体'>；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:31.5pt;mso-char-indent-count:2.25'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><span
+style='mso-spacerun:yes'>&nbsp;</span><u><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span>3<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u></span><span
+style='font-size:14.0pt;font-family:宋体'>；<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:31.5pt;mso-char-indent-count:2.25'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>Hanoi(n-1,b, a, c);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>4</span><span
+style='font-size:14.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>、<span
+lang=EN-US>Dijkstra</span>算法求单源最短路径<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>d[u]:s</span><span
+style='font-size:14.0pt;font-family:宋体'>到<span lang=EN-US>u</span>的距离<span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp; </span>p[u]:</span>记录前一节点信息<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:1.5;
+mso-outline-level:1'><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='font-size:14.0pt;font-family:宋体'>Init-single-source(G,s)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>for each vertex v</span><span
+style='font-size:14.0pt;font-family:宋体'>∈<span lang=EN-US>V[G]<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><span
+style='mso-spacerun:yes'>&nbsp;</span>do { d[v]=</span><span style='font-size:
+14.0pt;font-family:宋体'>∞<span lang=EN-US>;<u><span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>1<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></u><span
+style='mso-spacerun:yes'>&nbsp;</span>}<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><span
+style='mso-spacerun:yes'>&nbsp;</span>d[s]=0<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:1.5;
+mso-outline-level:1'><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='font-size:14.0pt;font-family:宋体'>Relax(u,v,w)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>if d[v]&gt;d[u]+w(u,v)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>then { d[v]=d[u]+w[u,v];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:70.0pt;mso-char-indent-count:5.0'><u><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>2<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><o:p></o:p></span></u></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.1pt;mso-char-indent-count:1.5'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:14.0pt;
+font-family:宋体'>dijkstra(G,w,s)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>1.
+Init-single-source(G,s)<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>2. S=</span><span
+style='font-size:14.0pt;font-family:宋体'>Φ<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>3. Q=V[G]<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'>4.while Q&lt;&gt; </span><span
+style='font-size:14.0pt;font-family:宋体'>Φ<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>do u=min(Q)<span
+style='mso-spacerun:yes'>&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>S=S</span><span style='font-size:14.0pt;font-family:宋体'>∪<span
+lang=EN-US>{u}<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>for each vertex<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span><u><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;</span>3<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span></u><span
+style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt;mso-char-indent-count:1.5'><!--[if gte vml 1]><v:shape
+ id="_x0000_s1092" type="#_x0000_t75" style='position:absolute;left:0;
+ text-align:left;margin-left:0;margin-top:12pt;width:258.15pt;height:139.35pt;
+ z-index:251656704;mso-position-horizontal:left'>
+ <v:imagedata src="算法设计与分析考试题及答案.files/image011.jpg" o:title="1 001" croptop="4734f"/>
+ <w:wrap type="square"/>
+</v:shape><![endif]--><![if !vml]><img width=344 height=186
+src="算法设计与分析考试题及答案.files/image012.jpg" align=left hspace=12 v:shapes="_x0000_s1092"><![endif]><span
+lang=EN-US style='font-size:14.0pt;font-family:宋体'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>do <u><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;</span>4<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><o:p></o:p></u></span></p>
+
+<p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly;
+mso-outline-level:1'><span style='font-size:14.0pt;font-family:黑体;mso-hansi-font-family:
+"Times New Roman"'>四、算法理解题（本题<span lang=EN-US>10</span>分）<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:9.0pt'><span style='font-size:14.0pt;
+font-family:宋体;mso-hansi-font-family:"Times New Roman"'>根据优先队列式分支限界法，求下图中从<span
+lang=EN-US>v1</span>点到<span lang=EN-US>v9</span>点的单源最短路径，请画出求得最优解的解空间树。要求中间被舍弃的结点用×标记，获得中间解的结点用单圆圈○框起，最</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>优解用双圆圈◎框起。</span><span lang=EN-US
+style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-outline-level:1'><span style='font-size:14.0pt;
+font-family:黑体;mso-hansi-font-family:"Times New Roman"'>五、算法理解题（本题<span
+lang=EN-US>5</span>分）<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:14.0pt;mso-char-indent-count:1.0'><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>设有</span><span lang=EN-US
+style='font-size:14.0pt'>n=2<sup>k</sup></span><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>个运动员要进行循环赛，现设计一个满足以下要求的比赛日程表：</span><span lang=EN-US
+style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>①每个选手必须与其他</span><span lang=EN-US style='font-size:14.0pt'>n-1</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>名选手比赛各一次；</span><span lang=EN-US
+style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>②每个选手一天至多只能赛一次；</span><span lang=EN-US style='font-size:
+14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>③循环赛要在最短时间内完成。</span><span lang=EN-US style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>（</span><span
+lang=EN-US style='font-size:14.0pt'>1</span><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>）如果</span><span lang=EN-US style='font-size:14.0pt'>n=2<sup>k</sup></span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>，循环赛最少需要进行几天；</span><span lang=EN-US
+style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>（</span><span
+lang=EN-US style='font-size:14.0pt'>2</span><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>）当</span><span lang=EN-US style='font-size:14.0pt'>n=2<sup>3</sup>=8</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>时，请画出循环赛日程表。</span><span lang=EN-US
+style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly;
+mso-outline-level:1'><span style='font-size:14.0pt;font-family:黑体;mso-hansi-font-family:
+"Times New Roman"'>六、算法设计题（本题<span lang=EN-US>15</span>分）<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>分别用贪心算法、动态规划法、回溯法设计</span><span lang=EN-US style='font-size:
+14.0pt'>0-1</span><span style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>背包问题。要求：说明所使用的算法策略；写出算法实现的主要步骤；分析算法的时间。</span><span
+lang=EN-US style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly;
+mso-outline-level:1'><span style='font-size:14.0pt;font-family:黑体;mso-hansi-font-family:
+"Times New Roman"'>七、算法设计题（本题<span lang=EN-US>10</span>分）<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>通过键盘输入一个高精度的正整数</span><span lang=EN-US style='font-size:
+14.0pt'>n(n</span><span style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>的有效位数≤</span><span
+lang=EN-US style='font-size:14.0pt'>240)</span><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>，去掉其中任意</span><span lang=EN-US style='font-size:14.0pt'>s</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>个数字后，剩下的数字按原左右次序将组成一个新的正整数。编程对给定的</span><span
+lang=EN-US style='font-size:14.0pt'>n </span><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>和</span><span lang=EN-US style='font-size:14.0pt'>s</span><span
+style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>，寻找一种方案，使得剩下的数字组成的新数最小。</span><span
+lang=EN-US style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>【样例输入】</span><span lang=EN-US style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:14.0pt'>178543<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:14.0pt'>S=4<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:14.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>【样例输出】</span><span lang=EN-US style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:14.0pt'>13<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>答案：</span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:14.0pt'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly;
+mso-outline-level:1'><span style='font-size:12.0pt;font-family:黑体;mso-hansi-font-family:
+"Times New Roman"'>一、填空题（本题<span lang=EN-US>15</span>分，每小题<span lang=EN-US>1</span>分）<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>1</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>．规则</span><span lang=EN-US
+style='font-size:12.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>一系列运算</span><span
+lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='tab-stops:list 27.0pt'><span lang=EN-US
+style='font-size:12.0pt'>2.<span style='mso-spacerun:yes'>&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>随机存取机</span><span lang=EN-US
+style='font-size:12.0pt'>RAM(Random Access Machine)</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>；随机存取存储程序机</span><span lang=EN-US
+style='font-size:12.0pt'>RASP(Random Access Stored Program Machine)</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>；图灵机</span><span lang=EN-US
+style='font-size:12.0pt'>(Turing Machine)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>3.<span
+style='mso-spacerun:yes'>&nbsp; </span>&nbsp;&nbsp;</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>算法效率</span><span lang=EN-US
+style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>4.<span
+style='mso-spacerun:yes'>&nbsp; </span>&nbsp;</span><span style='font-size:
+12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>时间</span><span lang=EN-US style='font-size:12.0pt'>&nbsp;</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>、空间、时间复杂度、</span><span lang=EN-US
+style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>空间复杂度</span><span
+lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>5</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>．</span><span lang=EN-US
+style='font-size:12.0pt'>2<sup>n&nbsp;</sup><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>6</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>．</span><span lang=EN-US
+style='font-size:12.0pt'>&nbsp;</span><span style='font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>最好</span><span
+lang=EN-US style='font-size:12.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp;
+</span></span><span style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>局部最优选择</span><span
+lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'>7. </span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>贪心选择</span><span lang=EN-US
+style='font-size:12.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>最优子结构</span><span lang=EN-US
+style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly;
+mso-outline-level:1'><span style='font-size:12.0pt;font-family:黑体;mso-hansi-font-family:
+"Times New Roman"'>二、简答题（本题<span lang=EN-US>25</span>分，每小题<span lang=EN-US>5</span>分）<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l1 level1 lfo2;tab-stops:list -9.0pt 27.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>6、</span></span><![endif]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+宋体;mso-hansi-font-family:"Times New Roman"'>分治法的基本思想</span></b><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>是将一个规模为<span
+lang=EN-US>n</span>的问题分解为<span lang=EN-US>k</span>个规模较小的子问题，这些子问题互相独立且与原问题相同；对这<span
+lang=EN-US>k</span>个子问题分别求解。如果子问题的规模仍然不够小，则再划分为<span lang=EN-US>k</span>个子问题，如此递归的进行下去，直到问题规模足够小，很容易求出其解为止；将求出的小规模的问题的解合并为一个更大规模的问题的解，自底向上逐步求出原来问题的解。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l1 level1 lfo2;tab-stops:list -9.0pt 27.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>7、</span></span><![endif]><span
+lang=EN-US style='font-size:12.0pt;mso-ascii-font-family:宋体'>“</span><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+宋体;mso-hansi-font-family:"Times New Roman"'>最优化原理</span></b><span lang=EN-US
+style='font-size:12.0pt;mso-ascii-font-family:宋体'>”</span><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>用数学化的语言来描述：假设为了解决某一优化问题，需要依次作出<span
+lang=EN-US>n</span>个决策<span lang=EN-US>D1</span>，<span lang=EN-US>D2</span>，</span><span
+lang=EN-US style='font-size:12.0pt;mso-ascii-font-family:宋体'>…</span><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>，<span
+lang=EN-US>Dn</span>，如若这个决策序列是最优的，对于任何一个整数<span lang=EN-US>k</span>，<span
+lang=EN-US>1 &lt; k &lt; n</span>，不论前面<span lang=EN-US>k</span>个决策是怎样的，以后的最优决策只取决于由前面决策所确定的当前状态，即以后的决策<span
+lang=EN-US>Dk+1</span>，<span lang=EN-US>Dk+2</span>，</span><span lang=EN-US
+style='font-size:12.0pt;mso-ascii-font-family:宋体'>…</span><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>，<span
+lang=EN-US>Dn</span>也是最优的。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l1 level1 lfo2;tab-stops:list -9.0pt 27.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>8、</span></span><![endif]><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>某个问题的最优解包含着其子问题的最优解。这种性质称为<b>最优子结构性质</b>。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l1 level1 lfo2;tab-stops:list -9.0pt 27.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>9、</span></span><![endif]><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+宋体;mso-hansi-font-family:"Times New Roman"'>回溯法的基本思想</span></b><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>是在一棵含有问题全部可能解的状态空间树上进行深度优先搜索，解为叶子结点。搜索过程中，每到达一个结点时，则判断该结点为根的子树是否含有问题的解，如果可以确定该子树中不含有问题的解，则放弃对该子树的搜索，退回到上层父结点，继续下一步深度优先搜索过程。在回溯法中，并不是先构造出整棵状态空间树，再进行搜索，而是在搜索过程，逐步构造出状态空间树，即边搜索，边构造。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;text-indent:-18.0pt;line-height:
+18.0pt;mso-line-height-rule:exactly;mso-list:l1 level1 lfo2;tab-stops:list 27.0pt'><![if !supportLists]><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:宋体'><span style='mso-list:Ignore'>10、<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>P(Polynomial</span><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>问题<span
+lang=EN-US>)</span>：也即是多项式复杂程度的问题。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;mso-para-margin-left:2.57gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>NP</span><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>就是<span
+lang=EN-US>Non-deterministic</span></span><span lang=EN-US style='font-size:
+12.0pt;mso-ascii-font-family:宋体'>&nbsp;</span><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>Polynomial</span><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>的问题，也即是多项式复杂程度的非确定性问题。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:27.0pt;mso-para-margin-left:2.57gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>NPC(NP
+Complete)</span><span style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:
+"Times New Roman"'>问题，这种问题只有把解域里面的所有可能都穷举了之后才能得出答案，这样的问题是<span lang=EN-US>NP</span>里面最难的问题，这种问题就是<span
+lang=EN-US>NPC</span>问题。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly;
+mso-outline-level:1'><span style='font-size:12.0pt;font-family:黑体;mso-hansi-font-family:
+"Times New Roman"'>三、算法填空（本题<span lang=EN-US>20</span>分，每小题<span lang=EN-US>5</span>分）<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>1</span><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>、<span
+lang=EN-US>n</span>后问题回溯算法<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>(1)
+</span><span lang=EN-US style='font-size:12.0pt;font-family:宋体'>!M[j]&amp;&amp;!L[i+j]&amp;&amp;!R[i-j+N]</span><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>(2)
+</span><span lang=EN-US style='font-size:12.0pt;font-family:宋体'>M[j]=L[i+j]=R[i-j+N]=1;</span><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>(3)</span><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体'> try(i+1,M,L,R,A)</span><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>
+<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span lang=EN-US style='font-size:
+12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>(4) </span><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体'>A[i][j]=0<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span lang=EN-US style='font-size:
+12.0pt;font-family:宋体'>(5) M[j]=L[i+j]=R[i-j+N]=0<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>2</span><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>、数塔问题。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span style='font-size:12.0pt;
+font-family:宋体;mso-hansi-font-family:"Times New Roman"'>（<span lang=EN-US>1</span>）<span
+lang=EN-US>c&lt;=r<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:16.2pt;mso-char-indent-count:1.35'><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>(2)t[r][c]+=t[r+1][c]</span><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span style='font-size:12.0pt;
+font-family:宋体'>（<span lang=EN-US>3</span>）</span><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>t[r][c]+=t[r+1][c+1]</span><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>3</span><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>、<span
+lang=EN-US>Hanoi</span>算法<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span style='font-size:12.0pt;
+font-family:宋体;mso-hansi-font-family:"Times New Roman"'>（<span lang=EN-US>1</span>）<span
+lang=EN-US>move(a,c)<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span style='font-size:12.0pt;
+font-family:宋体;mso-hansi-font-family:"Times New Roman"'>（<span lang=EN-US>2</span>）<span
+lang=EN-US>Hanoi(n-1, a, c , b)<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><!--[if gte vml 1]><v:shape
+ id="_x0000_s1097" type="#_x0000_t75" style='position:absolute;left:0;
+ text-align:left;margin-left:171pt;margin-top:.6pt;width:237.75pt;height:249.6pt;
+ z-index:251658752'>
+ <v:imagedata src="算法设计与分析考试题及答案.files/image013.jpg" o:title="2"/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:251658752;left:0px;margin-left:228px;margin-top:1px;
+width:317px;height:333px'><img width=317 height=333
+src="算法设计与分析考试题及答案.files/image014.jpg" v:shapes="_x0000_s1097"></span><![endif]><span
+style='font-size:12.0pt;font-family:宋体;mso-hansi-font-family:"Times New Roman"'>（<span
+lang=EN-US>3</span>）<span lang=EN-US>Move(a,c)<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span lang=EN-US style='font-size:
+12.0pt;font-family:宋体'>4</span><span style='font-size:12.0pt;font-family:宋体'>、（<span
+lang=EN-US>1</span>）<span lang=EN-US>p[v]=NIL<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span style='font-size:12.0pt;
+font-family:宋体'>（<span lang=EN-US>2</span>）<span lang=EN-US>p[v]=u<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:16.2pt;mso-char-indent-count:1.35'><span
+lang=EN-US style='font-size:12.0pt;font-family:宋体'>(3) v</span><span
+style='font-size:12.0pt;font-family:宋体'>∈<span lang=EN-US>adj[u]<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:9.0pt'><span style='font-size:12.0pt;
+font-family:宋体'>（<span lang=EN-US>4</span>）<span lang=EN-US>Relax(u,v,w)<o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly;
+mso-outline-level:1'><span style='font-size:12.0pt;font-family:黑体;mso-hansi-font-family:
+"Times New Roman"'>四、算法理解题（本题<span lang=EN-US>10</span>分）<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='margin-left:9.0pt'><span lang=EN-US style='font-size:
+12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><!--[if gte vml 1]><v:shape
+ id="_x0000_s1098" type="#_x0000_t75" style='position:absolute;left:0;
+ text-align:left;margin-left:0;margin-top:11.4pt;width:171pt;height:92.3pt;
+ z-index:251659776;mso-position-horizontal:left'>
+ <v:imagedata src="算法设计与分析考试题及答案.files/image011.jpg" o:title="1 001" croptop="4734f"/>
+ <w:wrap type="square"/>
+</v:shape><![endif]--><![if !vml]><img width=228 height=123
+src="算法设计与分析考试题及答案.files/image015.jpg" align=left hspace=12 v:shapes="_x0000_s1098"><![endif]><span
+lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><!--[if gte vml 1]><v:group
+ id="_x0000_s1093" style='position:absolute;left:0;text-align:left;
+ margin-left:261pt;margin-top:3.6pt;width:99pt;height:140.4pt;z-index:251657728'
+ coordorigin="6480,12048" coordsize="1980,2808">
+ <v:shape id="_x0000_s1094" type="#_x0000_t202" style='position:absolute;
+  left:6480;top:12048;width:1980;height:2808'>
+  <v:textbox style='mso-next-textbox:#_x0000_s1094'>
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal align=left style='text-align:left;mso-layout-grid-align:
+     none;text-autospace:none'><span lang=EN-US style='font-size:12.0pt;
+     font-family:SimSun+1;mso-bidi-font-family:SimSun+1;mso-font-kerning:0pt'>1
+     2 3 4 <span style='mso-spacerun:yes'>&nbsp;</span>5 6 7 8<o:p></o:p></span></p>
+     <p class=MsoNormal align=left style='text-align:left;mso-layout-grid-align:
+     none;text-autospace:none'><span lang=EN-US style='font-size:12.0pt;
+     font-family:SimSun+1;mso-bidi-font-family:SimSun+1;mso-font-kerning:0pt'>2
+     1 4 3 <span style='mso-spacerun:yes'>&nbsp;</span>6 5 8 7<o:p></o:p></span></p>
+     <p class=MsoNormal align=left style='text-align:left;mso-layout-grid-align:
+     none;text-autospace:none'><span lang=EN-US style='font-size:12.0pt;
+     font-family:SimSun+1;mso-bidi-font-family:SimSun+1;mso-font-kerning:0pt'>3
+     4 1 2 <span style='mso-spacerun:yes'>&nbsp;</span>7 8 5 6<o:p></o:p></span></p>
+     <p class=MsoNormal align=left style='text-align:left;mso-layout-grid-align:
+     none;text-autospace:none'><span lang=EN-US style='font-size:12.0pt;
+     font-family:SimSun+1;mso-bidi-font-family:SimSun+1;mso-font-kerning:0pt'>4
+     3 2 1 <span style='mso-spacerun:yes'>&nbsp;</span>8 7 6 5<o:p></o:p></span></p>
+     <p class=MsoNormal align=left style='text-align:left;mso-layout-grid-align:
+     none;text-autospace:none'><span lang=EN-US style='font-size:12.0pt;
+     font-family:SimSun+1;mso-bidi-font-family:SimSun+1;mso-font-kerning:0pt'>5
+     6 7 8 <span style='mso-spacerun:yes'>&nbsp;</span>1 2 3 4<o:p></o:p></span></p>
+     <p class=MsoNormal align=left style='text-align:left;mso-layout-grid-align:
+     none;text-autospace:none'><span lang=EN-US style='font-size:12.0pt;
+     font-family:SimSun+1;mso-bidi-font-family:SimSun+1;mso-font-kerning:0pt'>6
+     5 8 7 <span style='mso-spacerun:yes'>&nbsp;</span>2 1 4 3<o:p></o:p></span></p>
+     <p class=MsoNormal align=left style='text-align:left;mso-layout-grid-align:
+     none;text-autospace:none'><span lang=EN-US style='font-size:12.0pt;
+     font-family:SimSun+1;mso-bidi-font-family:SimSun+1;mso-font-kerning:0pt'>7
+     8 5 6 <span style='mso-spacerun:yes'>&nbsp;</span>3 4 1 2<o:p></o:p></span></p>
+     <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;font-family:
+     SimSun+1;mso-bidi-font-family:SimSun+1;mso-font-kerning:0pt'>8 7 6 5 <span
+     style='mso-spacerun:yes'>&nbsp;</span>4 3 2 1</span><span lang=EN-US
+     style='font-size:12.0pt'><o:p></o:p></span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape><v:line id="_x0000_s1095" style='position:absolute' from="7380,12048"
+  to="7380,14856"/>
+ <v:line id="_x0000_s1096" style='position:absolute' from="6480,13374" to="8460,13374"/>
+</v:group><![endif]--><![if !vml]><span style='mso-ignore:vglayout'>
+
+<table cellpadding=0 cellspacing=0 align=left>
+ <tr>
+  <td width=347 height=4></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td><img width=138 height=193 src="算法设计与分析考试题及答案.files/image016.gif" v:shapes="_x0000_s1093 _x0000_s1094 _x0000_s1095 _x0000_s1096"></td>
+ </tr>
+</table>
+
+</span><![endif]><span lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:21.25pt;text-indent:-21.25pt'><span
+lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<br style='mso-ignore:vglayout' clear=ALL>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:黑体;mso-hansi-font-family:
+"Times New Roman"'>五、</span><span style='font-size:12.0pt;font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>（</span><span
+lang=EN-US style='font-size:12.0pt'>1</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>）</span><span lang=EN-US style='font-size:12.0pt'>8</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>天</span><span style='font-size:12.0pt;
+font-family:黑体;mso-hansi-font-family:"Times New Roman"'>（<span lang=EN-US>2</span>分）</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>；</span><span lang=EN-US
+style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>（</span><span
+lang=EN-US style='font-size:12.0pt'>2</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>）当</span><span lang=EN-US style='font-size:12.0pt'>n=2<sup>3</sup>=8</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>时，循环赛日程表</span><span style='font-size:
+12.0pt;font-family:黑体;mso-hansi-font-family:"Times New Roman"'>（<span
+lang=EN-US>3</span>分）</span><span style='font-size:12.0pt;font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>。</span><span
+lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly;
+mso-outline-level:1'><span style='font-size:12.0pt;font-family:黑体;mso-hansi-font-family:
+"Times New Roman"'>六、算法设计题（本题<span lang=EN-US>15</span>分）<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>（</span><span lang=EN-US style='font-size:12.0pt'>1</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>）贪心算法</span><span lang=EN-US
+style='font-size:12.0pt'> O</span><span style='font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>（</span><span
+lang=EN-US style='font-size:12.0pt'>nlog</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>（</span><span lang=EN-US style='font-size:12.0pt'>n</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>））</span><span lang=EN-US
+style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo3;
+tab-stops:list 36.0pt'><![if !supportLists]><span lang=EN-US style='font-size:
+12.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>&Oslash;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>首先计算每种物品单位重量的价值</span><span
+lang=EN-US style='font-size:12.0pt'>Vi/Wi</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>，然后，依贪心选择策略，将尽可能多的单位重量价值最高的物品装入背包。若将这种物品全部装入背包后，背包内的物品总重量未超过</span><span
+lang=EN-US style='font-size:12.0pt'>C</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>，则选择单位重量价值次高的物品并尽可能多地装入背包。依此策略一直地进行下去，直到背包装满为止。</span><span
+lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo3;
+tab-stops:list 36.0pt'><![if !supportLists]><span lang=EN-US style='font-size:
+12.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>&Oslash;<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>具体算法可描述如下：</span><span
+lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>void Knapsack(int n,float M,float v[],float w[],float
+x[])<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>{Sort(n,v,w);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>int i;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>for (i=1;i&lt;=n;i++) x[i]=0;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>float c=M;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>for (i=1;i&lt;=n;i++) <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>{if (w[i]&gt;c) break;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>x[i]=1;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>c-=w[i];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>if (i&lt;=n) x[i]=c/w[i];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>（</span><span lang=EN-US style='font-size:12.0pt'>2</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>）动态规划法</span><span lang=EN-US
+style='font-size:12.0pt'><span style='mso-spacerun:yes'>&nbsp; </span>O(nc)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>m(i</span><span style='font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>，</span><span
+lang=EN-US style='font-size:12.0pt'>j)</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>是背包容量为</span><span lang=EN-US style='font-size:12.0pt'>j</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>，可选择物品为</span><span lang=EN-US
+style='font-size:12.0pt'>i</span><span style='font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>，</span><span
+lang=EN-US style='font-size:12.0pt'>i+1</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>，</span><span lang=EN-US style='font-size:12.0pt'>…</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>，</span><span lang=EN-US
+style='font-size:12.0pt'>n</span><span style='font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>时</span><span
+lang=EN-US style='font-size:12.0pt'>0-1</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>背包问题的最优值。由</span><span lang=EN-US style='font-size:12.0pt'>0-1</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>背包问题的最优子结构性质，可以建立计算</span><span
+lang=EN-US style='font-size:12.0pt'>m(i</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>，</span><span lang=EN-US style='font-size:12.0pt'>j)</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>的递归式如下。</span><span lang=EN-US
+style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US style='font-size:12.0pt'><span style='mso-element:field-begin;
+mso-field-lock:yes'></span><span style='mso-spacerun:yes'>&nbsp;</span>SHAPE<span
+style='mso-spacerun:yes'>&nbsp; </span>\* MERGEFORMAT <span style='mso-element:
+field-separator'></span></span><![endif]--><span lang=EN-US style='font-size:
+12.0pt'><!--[if gte vml 1]><v:group id="_x0000_s1087" editas="canvas" style='width:274pt;
+ height:89.4pt;mso-position-horizontal-relative:char;
+ mso-position-vertical-relative:line' coordorigin="2362,108" coordsize="4765,1557">
+ <o:lock v:ext="edit" aspectratio="t"/>
+ <v:shape id="_x0000_s1088" type="#_x0000_t75" style='position:absolute;left:2362;
+  top:108;width:4765;height:1557' o:preferrelative="f">
+  <v:fill o:detectmouseclick="t"/>
+  <v:path o:extrusionok="t" o:connecttype="none"/>
+  <o:lock v:ext="edit" text="t"/>
+ </v:shape><v:shape id="_x0000_s1089" type="#_x0000_t75" style='position:absolute;
+  left:2362;top:108;width:4765;height:627' fillcolor="window">
+  <v:imagedata src="算法设计与分析考试题及答案.files/image017.wmz" o:title=""/>
+ </v:shape><v:shape id="_x0000_s1090" type="#_x0000_t75" style='position:absolute;
+  left:2362;top:1038;width:2139;height:627' fillcolor="window">
+  <v:imagedata src="算法设计与分析考试题及答案.files/image018.wmz" o:title=""/>
+ </v:shape><w:wrap type="none"/>
+ <w:anchorlock/>
+</v:group><![endif]--><![if !vml]><img width=365 height=119
+src="算法设计与分析考试题及答案.files/image019.gif" v:shapes="_x0000_s1087 _x0000_s1088 _x0000_s1089 _x0000_s1090"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_s1089"
+  DrawAspect="Content" ObjectID="_1526798265">
+ </o:OLEObject>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_s1090"
+  DrawAspect="Content" ObjectID="_1526798266">
+ </o:OLEObject>
+</xml><![endif]--></span><!--[if mso & !supportInlineShapes & supportFields]><span
+lang=EN-US style='font-size:12.0pt'><v:shape id="_x0000_i1029" type="#_x0000_t75"
+ style='width:274pt;height:89.4pt'>
+ <v:imagedata croptop="-65520f" cropbottom="65520f"/>
+</v:shape><span style='mso-element:field-end'></span></span><![endif]--><span
+lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><b><span lang=EN-US
+style='font-size:12.0pt'>void KnapSack(int v[],int w[],int c,int n,int m[][11])<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>{int jMax=min(w[n]-1,c);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>for (j=0;j&lt;=jMax;j++)<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>/*m(n,j)=0<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>0=&lt;j&lt;w[n]*/<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>m[n][j]=0;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>for (j=w[n];j&lt;=c;j++)<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>/*m(n,j)=v[n]<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>j&gt;=w[n]*/<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>m[n][j]=v[n];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>for (i=n-1;i&gt;1;i--)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>{ int jMax=min(w[i]-1,c);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>for (j=0;j&lt;=jMax;j++)<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>/*m(i,j)=m(i+1,j)<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>0=&lt;j&lt;w[i]*/<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp;
+</span>m[i][j]=m[i+1][j];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>for (j=w[i];j&lt;=c;j++)/*m(n,j)=v[n]<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>j&gt;=w[n]*/<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span><span
+lang=IT style='font-size:12.0pt;mso-ansi-language:IT'>m[i][j]=max(m[i+1][j],m[i+1][j-w[i]]+v[i]);</span><span
+lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>m[1][c]=m[2][c];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>if(c&gt;=w[1])<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>m[1][c]=max(m[1][c],m[2][c-w[1]]+v[1]);<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>（</span><span lang=EN-US style='font-size:12.0pt'>3</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>）回溯法</span><span lang=EN-US
+style='font-size:12.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp; </span>O(2<sup>n</sup>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>cw:</span><span style='font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>当前重量</span><span
+lang=EN-US style='font-size:12.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span>cp:</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>当前价值</span><span lang=EN-US
+style='font-size:12.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+</span>bestp</span><span style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>：当前最优值</span><span
+lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>void&nbsp;backtrack(<b>int</b>&nbsp;i)<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><span style='mso-spacerun:yes'>&nbsp;</span>//</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>回溯法</span><span lang=EN-US
+style='font-size:12.0pt'> &nbsp;i</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>初值</span><span lang=EN-US style='font-size:12.0pt'>1<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>{&nbsp;&nbsp;&nbsp;&nbsp;if(i&nbsp;&gt;&nbsp;n)<span
+style='mso-spacerun:yes'>&nbsp; </span>//</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>到达叶结点</span><span lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>{
+bestp&nbsp;=&nbsp;cp; &nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} &nbsp;&nbsp; <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(cw&nbsp;+&nbsp;w[i]&nbsp;&lt;=&nbsp;c)
+//</span><span style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>搜索左子树</span><span
+lang=EN-US style='font-size:12.0pt'> &nbsp;&nbsp; <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;cw&nbsp;+=&nbsp;w[i];
+<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><span style='mso-spacerun:yes'>&nbsp;
+</span>&nbsp;<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+</span>cp&nbsp;+=&nbsp;p[i]; &nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>backtrack(i+1);
+&nbsp;&nbsp; <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cw&nbsp;-=&nbsp;w[i];<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cp&nbsp;-=&nbsp;p[i];
+&nbsp;&nbsp; <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp; <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+if(Bound(i+1)&gt;bestp) <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>//</span><span style='font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>搜索右子树</span><span
+lang=EN-US style='font-size:12.0pt'> &nbsp;&nbsp; <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;backtrack(i+1);
+&nbsp;&nbsp; <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'>&nbsp;} &nbsp;&nbsp; <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US
+style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:18.0pt;mso-line-height-rule:exactly;
+mso-outline-level:1'><span style='font-size:12.0pt;font-family:黑体;mso-hansi-font-family:
+"Times New Roman"'>七、算法设计题（本题<span lang=EN-US>10</span>分）<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>为了尽可能地逼近目标，我们选取的贪心策略为：<b style='mso-bidi-font-weight:normal'>每一步总是选择一个使剩下的数最小的数字删去，即按高位到低位的顺序搜索，若各位数字递增，则删除最后一个数字，否则删除第一个递减区间的首字符。</b>然后回到串首，按上述规则再删除下一个数字。重复以上过程</span><span
+lang=EN-US style='font-size:12.0pt'>s</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>次，剩下的数字串便是问题的解了。</span><span lang=EN-US style='font-size:
+12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>具体算法如下：</span><span lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-layout-grid-align:
+none;text-autospace:none'><span style='font-size:12.0pt;font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-font-kerning:0pt'>输入</span><span lang=EN-US style='font-size:12.0pt;
+mso-font-kerning:0pt'>s, n;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-layout-grid-align:
+none;text-autospace:none'><span lang=EN-US style='font-size:12.0pt;mso-font-kerning:
+0pt'>while</span><span style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt'>（</span><span lang=EN-US style='font-size:12.0pt;mso-font-kerning:0pt'> s
+&gt; 0 </span><span style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman";mso-font-kerning:
+0pt'>）</span><span lang=EN-US style='font-size:12.0pt;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:6.0pt;
+mso-char-indent-count:.5;mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:12.0pt;mso-font-kerning:0pt'>{<span
+style='mso-spacerun:yes'>&nbsp; </span>i=1; <span
+style='mso-spacerun:yes'>&nbsp;</span>//</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>从串首开始找</span><span lang=EN-US style='font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:18.0pt;
+mso-char-indent-count:1.5;mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:12.0pt;mso-font-kerning:0pt'>while (i &lt;
+length(n)) &amp;&amp; (n[i]&lt;n[i+1]) <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:24.0pt;
+mso-char-indent-count:2.0;mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:12.0pt;mso-font-kerning:0pt'>{i++;}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:30.0pt;
+mso-char-indent-count:2.5;mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:12.0pt;mso-font-kerning:0pt'>delete(n,i,1); //</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>删除字符串</span><span lang=EN-US
+style='font-size:12.0pt'>n</span><span style='font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman"'>的第</span><span
+lang=EN-US style='font-size:12.0pt'>i</span><span style='font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>个字</span><span style='font-size:12.0pt;font-family:宋体;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-font-kerning:0pt'>符</span><span lang=EN-US style='font-size:12.0pt;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:24.0pt;
+mso-char-indent-count:2.0;mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:12.0pt;mso-font-kerning:0pt'>s--;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:12.0pt;
+mso-char-indent-count:1.0;mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:12.0pt;mso-font-kerning:0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-layout-grid-align:
+none;text-autospace:none'><span lang=EN-US style='font-size:12.0pt;mso-font-kerning:
+0pt'>while (length(n)&gt;1)&amp;&amp; (n[1]=</span><span lang=EN-US
+style='font-size:12.0pt;mso-fareast-font-family:SimSun+3;mso-font-kerning:0pt'>‘</span><st1:chmetcnv
+TCSC="0" NumberType="1" Negative="False" HasSpace="False" SourceValue="0"
+UnitName="’" w:st="on"><span lang=EN-US style='font-size:12.0pt;mso-font-kerning:
+ 0pt'>0</span><span lang=EN-US style='font-size:12.0pt;mso-fareast-font-family:
+ SimSun+3;mso-font-kerning:0pt'>’</span></st1:chmetcnv><span lang=EN-US
+style='font-size:12.0pt;mso-font-kerning:0pt'>) <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:12.0pt;
+mso-char-indent-count:1.0;mso-layout-grid-align:none;text-autospace:none'><span
+lang=EN-US style='font-size:12.0pt;mso-font-kerning:0pt'>delete(n,1,1); //</span><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>删去串首可能产生的无用零</span><span lang=EN-US
+style='font-size:12.0pt;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;text-indent:6.0pt;
+mso-char-indent-count:.5;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";mso-font-kerning:0pt'>输出</span><span
+lang=EN-US style='font-size:12.0pt;mso-font-kerning:0pt'>n;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:8.9pt;mso-para-margin-left:.85gd;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='mso-bidi-font-size:10.5pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:21.0pt'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:7.0pt;mso-char-indent-count:.5;
+tab-stops:156.0pt'><span lang=EN-US style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
